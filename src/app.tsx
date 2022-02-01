@@ -5,8 +5,6 @@ import log, { LogLevelDesc } from "loglevel";
 import './app.css';
 
 import { EmbeddedDisplay, onRenderCallback, RelativePosition, store } from '@dls-controls/cs-web-lib';
-import { Header } from './components/Header/header';
-import { Footer } from './components/Footer/footer';
 
 log.setLevel((process.env.REACT_APP_LOG_LEVEL as LogLevelDesc) ?? "info");
 
@@ -42,7 +40,6 @@ const App: React.FC = (): JSX.Element => (
   <Provider store={store}>
     <div className="App">
       <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
-      <Header/>
         <Switch>
           <Redirect exact from="/" to="/json/ms_day" />
           <Route path="/json/ms_day" component={LoadMSDayView}/>
@@ -52,7 +49,6 @@ const App: React.FC = (): JSX.Element => (
           <Route path="/json/ms_message"  component={LoadMSMessageView}/>
         </Switch>
       </Profiler>
-      <Footer />
     </div>
   </Provider>
 );
