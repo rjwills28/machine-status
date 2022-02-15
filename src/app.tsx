@@ -60,7 +60,7 @@ export const AppWeb: React.FC = (): JSX.Element => (
   // the properties on the object placed in value
   // Profiler sends render information whenever child components rerender  
   <Provider store={store}>
-    <div className="App">
+    <div className="AppWeb">
     <Header />
       <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
         <Switch>
@@ -85,7 +85,6 @@ class RedirectAfterTimeout extends Component<Props> {
   state = {
     redirect: false
   };
-
 
   componentDidMount() {
     this.id = setTimeout(() => this.setState({ redirect: true }), delayTime * 1000)

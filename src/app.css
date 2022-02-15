@@ -22,8 +22,6 @@ body,
 }
 html,
 body {
-  transform: scale(0.9);
-  transform-origin: center top;
   margin: 0;
   padding: 0;
   background: var(--diamond-blue);
@@ -37,11 +35,13 @@ html {
 
 .App {
   height: 100%;
+  overflow: hidden;
   text-align: center;
 }
 
 .AppWeb {
   height: 100%;
+  overflow: auto;
   text-align: center;
 }
 
