@@ -30,4 +30,6 @@ jobs:
         # Defaults to the user or organization that owns the workflow file
         scope: '@dls-controls'
     - run: npm ci
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - run: npm run test
