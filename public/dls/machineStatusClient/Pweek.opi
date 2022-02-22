@@ -18,15 +18,6 @@
   <show_grid>true</show_grid>
   <grid_space>8</grid_space>
   <auto_zoom_to_fit_all>true</auto_zoom_to_fit_all>
-  <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <height>64</height>
-    <image_file>./logo.png</image_file>
-    <name>EDM Png</name>
-    <width>64</width>
-    <x>8</x>
-    <y>8</y>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0">
     <auto_size>false</auto_size>
     <background_color>
