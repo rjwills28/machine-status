@@ -84,6 +84,7 @@ export const AppWeb: React.FC = (): JSX.Element => (
 
 type Props = {
   urlpath: string;
+  pagename: string;
 };
 
 class RedirectAfterTimeout extends Component<Props> {
@@ -98,6 +99,7 @@ class RedirectAfterTimeout extends Component<Props> {
       () => this.setState({ redirect: true }),
       delayTime * 1000
     );
+    document.title = this.props.pagename;
   }
 
   componentWillUnmount() {
@@ -116,35 +118,41 @@ class RedirectAfterTimeout extends Component<Props> {
 const LoadMSDayView = () => (
   <div>
     <LoadEmbedded />
-    <RedirectAfterTimeout urlpath={"/json/ms_week"} />
+    <RedirectAfterTimeout urlpath={"/json/ms_week"} pagename={"Day View"} />
   </div>
 );
 
 const LoadMSWeekView = () => (
   <div>
     <LoadEmbedded />
-    <RedirectAfterTimeout urlpath={"/json/ms_fe1"} />
+    <RedirectAfterTimeout urlpath={"/json/ms_fe1"} pagename={"Week View"} />
   </div>
 );
 
 const LoadMSFe1View = () => (
   <div>
     <LoadEmbedded />
-    <RedirectAfterTimeout urlpath={"/json/ms_fe2"} />
+    <RedirectAfterTimeout urlpath={"/json/ms_fe2"} pagename={"Front Ends"} />
   </div>
 );
 
 const LoadMSFe2View = () => (
   <div>
     <LoadEmbedded />
-    <RedirectAfterTimeout urlpath={"/json/ms_message"} />
+    <RedirectAfterTimeout
+      urlpath={"/json/ms_message"}
+      pagename={"Front Ends"}
+    />
   </div>
 );
 
 const LoadMSMessageView = () => (
   <div>
     <LoadEmbedded />
-    <RedirectAfterTimeout urlpath={"/json/ms_day"} />
+    <RedirectAfterTimeout
+      urlpath={"/json/ms_day"}
+      pagename={"Operations Messages"}
+    />
   </div>
 );
 
