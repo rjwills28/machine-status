@@ -21,6 +21,7 @@ const delayTime: number = parseFloat(
 
 type Props = {
   urlpath: string;
+  pagename: string;
 };
 
 type PropsPath = {
@@ -140,35 +141,35 @@ class RedirectAfterTimeout extends Component<Props> {
 const LoadMSDayView = () => (
   <div>
     <LoadEmbeddedDirect pathin={"/json/ms_day"} />
-    <RedirectAfterTimeout urlpath={"week"} />
+    <RedirectAfterTimeout urlpath={"week"} pagename={"Day View"} />
   </div>
 );
 
 const LoadMSWeekView = () => (
   <div>
     <LoadEmbeddedDirect pathin={"/json/ms_week"} />
-    <RedirectAfterTimeout urlpath={"fe1"} />
+    <RedirectAfterTimeout urlpath={"fe1"} pagename={"Week View"} />
   </div>
 );
 
 const LoadMSFe1View = () => (
   <div>
     <LoadEmbeddedDirect pathin={"/json/ms_fe1"} />
-    <RedirectAfterTimeout urlpath={"fe2"} />
+    <RedirectAfterTimeout urlpath={"fe2"} pagename={"Front Ends"} />
   </div>
 );
 
 const LoadMSFe2View = () => (
   <div>
     <LoadEmbeddedDirect pathin={"/json/ms_fe2"} />
-    <RedirectAfterTimeout urlpath={"message"} />
+    <RedirectAfterTimeout urlpath={"message"} pagename={"Front Ends"} />
   </div>
 );
 
 const LoadMSMessageView = () => (
   <div>
     <LoadEmbeddedDirect pathin={"/json/ms_message"} />
-    <RedirectAfterTimeout urlpath={"day"} />
+    <RedirectAfterTimeout urlpath={"day"} pagename={"Operations Messages"} />
   </div>
 );
 
