@@ -121,6 +121,7 @@ class RedirectAfterTimeout extends Component<Props> {
       () => this.setState({ redirect: true }),
       delayTime * 1000
     );
+    document.title = this.props.pagename;
   }
 
   componentWillUnmount() {

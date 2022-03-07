@@ -119,7 +119,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>58</height>
@@ -137,7 +137,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -163,7 +163,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>58</height>
@@ -181,7 +181,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -382,7 +382,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -420,7 +420,7 @@
   <pv_name>SR02I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -445,7 +445,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -483,7 +483,7 @@
   <pv_name>SR02I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -541,7 +541,7 @@
   <pv_name>FE02I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -704,7 +704,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -742,7 +742,7 @@
   <pv_name>SR02J-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -767,7 +767,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -805,7 +805,7 @@
   <pv_name>SR02J-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -863,7 +863,7 @@
   <pv_name>FE02J-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1026,7 +1026,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -1064,7 +1064,7 @@
   <pv_name>SR03I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1089,7 +1089,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -1127,7 +1127,7 @@
   <pv_name>SR03I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1185,7 +1185,7 @@
   <pv_name>FE03I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1348,7 +1348,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -1386,7 +1386,7 @@
   <pv_name>SR04I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1411,7 +1411,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -1449,7 +1449,7 @@
   <pv_name>SR04I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1507,7 +1507,7 @@
   <pv_name>FE04I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1670,7 +1670,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -1708,7 +1708,7 @@
   <pv_name>SR04J-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1733,7 +1733,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -1771,7 +1771,7 @@
   <pv_name>SR04J-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -1829,7 +1829,7 @@
   <pv_name>FE04I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2049,7 +2049,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -2087,7 +2087,7 @@
   <pv_name>SR05I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2112,7 +2112,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -2150,7 +2150,7 @@
   <pv_name>SR05I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2208,7 +2208,7 @@
   <pv_name>FE05I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2428,7 +2428,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -2466,7 +2466,7 @@
   <pv_name>SR06I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2491,7 +2491,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -2529,7 +2529,7 @@
   <pv_name>SR06I-MO-SERVC-21:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2554,7 +2554,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -2592,7 +2592,7 @@
   <pv_name>SR06I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2617,7 +2617,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -2655,7 +2655,7 @@
   <pv_name>SR06I-MO-SERVC-21:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2713,7 +2713,7 @@
   <pv_name>FE06I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2933,7 +2933,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -2971,7 +2971,7 @@
   <pv_name>SR07I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -2996,7 +2996,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -3034,7 +3034,7 @@
   <pv_name>SR07I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -3092,7 +3092,7 @@
   <pv_name>FE07I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -3324,7 +3324,7 @@
   <pv_name>FE07B-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -3448,7 +3448,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -3486,7 +3486,7 @@
   <pv_name>SR08I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -3511,7 +3511,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -3549,7 +3549,7 @@
   <pv_name>SR08I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -3607,7 +3607,7 @@
   <pv_name>FE08I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -3770,7 +3770,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -3808,7 +3808,7 @@
   <pv_name>SR09I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -3833,7 +3833,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -3871,7 +3871,7 @@
   <pv_name>SR09I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -3929,7 +3929,7 @@
   <pv_name>FE09I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4092,7 +4092,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -4130,7 +4130,7 @@
   <pv_name>SR09J-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4155,7 +4155,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -4193,7 +4193,7 @@
   <pv_name>SR09J-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4251,7 +4251,7 @@
   <pv_name>FE09I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4414,7 +4414,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -4452,7 +4452,7 @@
   <pv_name>SR10I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4477,7 +4477,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -4515,7 +4515,7 @@
   <pv_name>SR10I-MO-SERVC-21:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4540,7 +4540,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -4578,7 +4578,7 @@
   <pv_name>SR10I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4603,7 +4603,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -4641,7 +4641,7 @@
   <pv_name>SR10I-MO-SERVC-21:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4699,7 +4699,7 @@
   <pv_name>FE10I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4919,7 +4919,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -4957,7 +4957,7 @@
   <pv_name>SR11I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -4982,7 +4982,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -5020,7 +5020,7 @@
   <pv_name>SR11I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5078,7 +5078,7 @@
   <pv_name>FE11I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5241,7 +5241,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -5279,7 +5279,7 @@
   <pv_name>SR11K-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5304,7 +5304,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -5342,7 +5342,7 @@
   <pv_name>SR11K-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5400,7 +5400,7 @@
   <pv_name>FE11K-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5542,7 +5542,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -5580,7 +5580,7 @@
   <pv_name>SR12I-CS-SCMPW-01:B</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5638,7 +5638,7 @@
   <pv_name>FE12I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5801,7 +5801,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -5839,7 +5839,7 @@
   <pv_name>SR13I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5864,7 +5864,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -5902,7 +5902,7 @@
   <pv_name>SR13I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -5960,7 +5960,7 @@
   <pv_name>FE13I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -6180,7 +6180,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -6218,7 +6218,7 @@
   <pv_name>SR13J-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -6243,7 +6243,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -6281,7 +6281,7 @@
   <pv_name>SR13J-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -6339,7 +6339,7 @@
   <pv_name>FE13I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -6559,7 +6559,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -6597,7 +6597,7 @@
   <pv_name>SR14I-MO-SERVC-01:CURRGAPD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -6622,7 +6622,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>42</height>
@@ -6660,7 +6660,7 @@
   <pv_name>SR14I-MO-SERVC-01:FIELD</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
@@ -6718,7 +6718,7 @@
   <pv_name>FE14I-PS-SHTR-01:STA</pv_name></widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_style>None</border_style>
