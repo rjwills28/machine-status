@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, MemoryRouter } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 import App, { AppWeb } from "./app";
 import reportWebVitals from "./reportWebVitals";
@@ -11,9 +11,7 @@ if (process.env.REACT_APP_BUILD_TARGET === "web") {
     <Router>
       <FileProvider>
         <OutlineProvider>
-          <MemoryRouter>
-            <AppWeb />
-          </MemoryRouter>
+          <AppWeb />
         </OutlineProvider>
       </FileProvider>
     </Router>,
@@ -24,9 +22,7 @@ if (process.env.REACT_APP_BUILD_TARGET === "web") {
     <Router>
       <FileProvider>
         <OutlineProvider>
-          <MemoryRouter>
-            <App />
-          </MemoryRouter>
+          <App />
         </OutlineProvider>
       </FileProvider>
     </Router>,
