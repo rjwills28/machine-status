@@ -19,6 +19,15 @@ const delayTime: number = parseFloat(
   process.env.REACT_APP_PAGE_DISPLAY_TIME_SEC ?? "5"
 );
 
+type Props = {
+  urlpath: string;
+  pagename: string;
+};
+
+type PropsPath = {
+  pathin: string;
+};
+
 const LoadEmbedded = (): JSX.Element => {
   const match = useRouteMatch();
   let path = match.url;
@@ -42,6 +51,21 @@ const LoadEmbedded = (): JSX.Element => {
   );
 };
 
+const LoadEmbeddedDirect = (props: PropsPath): JSX.Element => {
+  const path = String(props.pathin) + ".json";
+
+  return (
+    <EmbeddedDisplay
+      position={new RelativePosition()}
+      file={{
+        path,
+        defaultProtocol: "pva",
+        macros: {}
+      }}
+    />
+  );
+};
+
 const App: React.FC = (): JSX.Element => (
   // Each instance of context provider allows child components to access
   // the properties on the object placed in value
@@ -50,12 +74,15 @@ const App: React.FC = (): JSX.Element => (
     <div className="App">
       <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
         <Switch>
-          <Redirect exact from="/" to="/json/ms_day" />
-          <Route path="/json/ms_day" component={LoadMSDayView} />
-          <Route path="/json/ms_week" component={LoadMSWeekView} />
-          <Route path="/json/ms_fe1" component={LoadMSFe1View} />
-          <Route path="/json/ms_fe2" component={LoadMSFe2View} />
-          <Route path="/json/ms_message" component={LoadMSMessageView} />
+          <Redirect exact from="/" to="/day" />
+          <Route path="/day" component={LoadMSDayView} />
+          <Route path="/week" component={LoadMSWeekView} />
+          <Route path="/fe1" component={LoadMSFe1View} />
+          <Route path="/fe2" component={LoadMSFe2View} />
+          <Route path="/message" component={LoadMSMessageView} />
+          <Route path="*">
+            <LoadEmbedded />
+          </Route>
         </Switch>
       </Profiler>
     </div>
@@ -71,7 +98,8 @@ export const AppWeb: React.FC = (): JSX.Element => (
       <Header />
       <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
         <Switch>
-          <Redirect exact from="/" to="/json/machineStatus" />
+          <Redirect exact from="/" to="/machine-status" />
+          <Route path="/machine-status" component={LoadMachineStatusView} />
           <Route path="/*">
             <LoadEmbedded />
           </Route>
@@ -81,11 +109,6 @@ export const AppWeb: React.FC = (): JSX.Element => (
     </div>
   </Provider>
 );
-
-type Props = {
-  urlpath: string;
-  pagename: string;
-};
 
 class RedirectAfterTimeout extends Component<Props> {
   private id: any;
@@ -117,42 +140,42 @@ class RedirectAfterTimeout extends Component<Props> {
 
 const LoadMSDayView = () => (
   <div>
-    <LoadEmbedded />
-    <RedirectAfterTimeout urlpath={"/json/ms_week"} pagename={"Day View"} />
+    <LoadEmbeddedDirect pathin={"/json/ms_day"} />
+    <RedirectAfterTimeout urlpath={"week"} pagename={"Day View"} />
   </div>
 );
 
 const LoadMSWeekView = () => (
   <div>
-    <LoadEmbedded />
-    <RedirectAfterTimeout urlpath={"/json/ms_fe1"} pagename={"Week View"} />
+    <LoadEmbeddedDirect pathin={"/json/ms_week"} />
+    <RedirectAfterTimeout urlpath={"fe1"} pagename={"Week View"} />
   </div>
 );
 
 const LoadMSFe1View = () => (
   <div>
-    <LoadEmbedded />
-    <RedirectAfterTimeout urlpath={"/json/ms_fe2"} pagename={"Front Ends"} />
+    <LoadEmbeddedDirect pathin={"/json/ms_fe1"} />
+    <RedirectAfterTimeout urlpath={"fe2"} pagename={"Front Ends"} />
   </div>
 );
 
 const LoadMSFe2View = () => (
   <div>
-    <LoadEmbedded />
-    <RedirectAfterTimeout
-      urlpath={"/json/ms_message"}
-      pagename={"Front Ends"}
-    />
+    <LoadEmbeddedDirect pathin={"/json/ms_fe2"} />
+    <RedirectAfterTimeout urlpath={"message"} pagename={"Front Ends"} />
   </div>
 );
 
 const LoadMSMessageView = () => (
   <div>
-    <LoadEmbedded />
-    <RedirectAfterTimeout
-      urlpath={"/json/ms_day"}
-      pagename={"Operations Messages"}
-    />
+    <LoadEmbeddedDirect pathin={"/json/ms_message"} />
+    <RedirectAfterTimeout urlpath={"day"} pagename={"Operations Messages"} />
+  </div>
+);
+
+const LoadMachineStatusView = () => (
+  <div>
+    <LoadEmbeddedDirect pathin={"/json/machineStatus"} />
   </div>
 );
 
