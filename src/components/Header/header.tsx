@@ -11,9 +11,6 @@ export const Header = (): JSX.Element => {
           alt="Diamond Logo"
         />
       </div>
-      <h1 className={classes.h1}>
-        <a href="/">Machine Status</a>
-      </h1>
     </header>
   );
 };
