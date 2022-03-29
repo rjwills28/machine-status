@@ -725,7 +725,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <align_to_nearest_second>false</align_to_nearest_second>
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="240" green="240" blue="240" />
     </background_color>
@@ -769,7 +769,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <stretch_to_fit>false</stretch_to_fit>
+    <stretch_to_fit>true</stretch_to_fit>
     <tooltip></tooltip>
     <transparency>false</transparency>
     <visible>true</visible>
@@ -1288,7 +1288,7 @@ $(pv_value)</tooltip>
     <width>360</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6cab</wuid>
-    <x>103</x>
+    <x>110</x>
     <y>923</y>
   </widget>
 </display>
