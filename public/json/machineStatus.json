@@ -13,7 +13,7 @@
       "type": "flexcontainer",
       "position": "relative",
       "backgroundColor": "white",
-      "margin": "1% 0% 1% 0%",
+      "margin": "0% 0% 0% 0%",
       "flexFlow": "row",
       "border": {
         "style": "line",
@@ -27,7 +27,7 @@
           "position": "relative",
           "height": "3rem",
           "width": "13%",
-          "margin": "1% 0% 1% 0%",
+          "margin": "0% 0% 0% 0%",
           "foregroundColor": "#444A95",
           "backgroundColor": "white",
           "border": {
@@ -63,7 +63,7 @@
           "position": "relative",
           "height": "3rem",
           "width": "15%",
-          "margin": "1% 0% 1% 0%",
+          "margin": "0% 0% 0% 0%",
           "foregroundColor": "#444A95",
           "backgroundColor": "white",
           "border": {
@@ -84,7 +84,7 @@
                   "location": "opi",
                   "description": "",
                   "file": {
-                    "path": "../dls/machineStatusClient/Pweek.opi",
+                    "path": "../dls/machineStatusClient/Pweek_web.opi",
                     "macros": {},
                     "defaultProtocol": "ca"
                   }
@@ -95,11 +95,11 @@
         },
         {
           "type": "actionbutton",
-          "text": "Front Ends 1",
+          "text": "Front Ends",
           "position": "relative",
           "height": "3rem",
           "width": "12%",
-          "margin": "1% 0% 1% 0%",
+          "margin": "0% 0% 0% 0%",
           "foregroundColor": "#444A95",
           "backgroundColor": "white",
           "border": {
@@ -120,84 +120,7 @@
                   "location": "opi",
                   "description": "",
                   "file": {
-                    "path": "../dls/machineStatusClient/FE1.opi",
-                    "macros": {},
-                    "defaultProtocol": "ca"
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "type": "actionbutton",
-          "text": "Front Ends 2",
-          "position": "relative",
-          "height": "3rem",
-          "width": "12%",
-          "margin": "1% 0% 1% 0%",
-          "foregroundColor": "#444A95",
-          "backgroundColor": "white",
-          "border": {
-            "style": "line",
-            "color": "#dddddd",
-            "width": 0
-          },
-          "font": {
-            "size": "18"
-          },
-          "actions": {
-            "executeAsOne": false,
-            "actions": [
-              {
-                "type": "OPEN_PAGE",
-                "dynamicInfo": {
-                  "name": "app",
-                  "location": "opi",
-                  "description": "",
-                  "file": {
-                    "path": "../dls/machineStatusClient/FE2.opi",
-                    "macros": {
-                      "device": "SR23C-DI-TMBF-01",
-                      "axis": "X",
-                      "axis0": "X",
-                      "axis1": "X"
-                    },
-                    "defaultProtocol": "ca"
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "type": "actionbutton",
-          "text": "Messages",
-          "position": "relative",
-          "height": "3rem",
-          "width": "12%",
-          "margin": "1% 0% 1% 0%",
-          "foregroundColor": "#444A95",
-          "backgroundColor": "white",
-          "border": {
-            "style": "line",
-            "color": "#dddddd",
-            "width": 0
-          },
-          "font": {
-            "size": "18"
-          },
-          "actions": {
-            "executeAsOne": false,
-            "actions": [
-              {
-                "type": "OPEN_PAGE",
-                "dynamicInfo": {
-                  "name": "app",
-                  "location": "opi",
-                  "description": "",
-                  "file": {
-                    "path": "../dls/machineStatusClient/Pmessage.opi",
+                    "path": "../dls/machineStatusClient/FE_web.opi",
                     "macros": {},
                     "defaultProtocol": "ca"
                   }
