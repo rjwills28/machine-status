@@ -3499,7 +3499,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-68ca</wuid>
     <x>694</x>
     <y>302</y>
@@ -3550,7 +3550,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68c9</wuid>
     <x>694</x>
@@ -3623,9 +3623,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-68c8</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>302</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -3674,10 +3674,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68c7</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>302</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -4293,7 +4293,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-68bd</wuid>
     <x>694</x>
     <y>344</y>
@@ -4344,7 +4344,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68bc</wuid>
     <x>694</x>
@@ -4417,9 +4417,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-68bb</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>344</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4468,10 +4468,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68ba</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>344</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -4710,7 +4710,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wuid>1614ec47:17f6511f663:-68b6</wuid>
     <x>118</x>
     <y>386</y>
@@ -4761,7 +4761,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68b5</wuid>
     <x>118</x>
@@ -4839,9 +4839,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wuid>1614ec47:17f6511f663:-68b4</wuid>
-    <x>208</x>
+    <x>214</x>
     <y>386</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4890,10 +4890,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68b3</wuid>
-    <x>208</x>
+    <x>214</x>
     <y>386</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -4968,7 +4968,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wuid>1614ec47:17f6511f663:-68b2</wuid>
     <x>310</x>
     <y>386</y>
@@ -5019,7 +5019,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68b1</wuid>
     <x>310</x>
@@ -5097,9 +5097,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wuid>1614ec47:17f6511f663:-68b0</wuid>
-    <x>400</x>
+    <x>406</x>
     <y>386</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5151,7 +5151,7 @@ $(pv_value)</tooltip>
     <width>80</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68af</wuid>
-    <x>400</x>
+    <x>406</x>
     <y>386</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -5469,7 +5469,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-68aa</wuid>
     <x>956</x>
     <y>386</y>
@@ -5520,7 +5520,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68a9</wuid>
     <x>956</x>
@@ -5593,9 +5593,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-68a8</wuid>
-    <x>1081</x>
+    <x>1086</x>
     <y>386</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5644,10 +5644,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68a7</wuid>
-    <x>1081</x>
+    <x>1086</x>
     <y>386</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -8904,7 +8904,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wuid>1614ec47:17f6511f663:-6871</wuid>
     <x>118</x>
     <y>638</y>
@@ -8955,7 +8955,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6870</wuid>
     <x>118</x>
@@ -9033,9 +9033,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wuid>1614ec47:17f6511f663:-686f</wuid>
-    <x>208</x>
+    <x>214</x>
     <y>638</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -9084,10 +9084,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-686e</wuid>
-    <x>208</x>
+    <x>214</x>
     <y>638</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -9162,7 +9162,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wuid>1614ec47:17f6511f663:-686d</wuid>
     <x>310</x>
     <y>638</y>
@@ -9213,7 +9213,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-686c</wuid>
     <x>310</x>
@@ -9291,9 +9291,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wuid>1614ec47:17f6511f663:-686b</wuid>
-    <x>400</x>
+    <x>406</x>
     <y>638</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -9342,10 +9342,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>90</width>
+    <width>84</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-686a</wuid>
-    <x>400</x>
+    <x>406</x>
     <y>638</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -9663,7 +9663,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-6865</wuid>
     <x>956</x>
     <y>638</y>
@@ -9714,7 +9714,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6864</wuid>
     <x>956</x>
@@ -9787,9 +9787,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-6863</wuid>
-    <x>1081</x>
+    <x>1087</x>
     <y>638</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -9838,10 +9838,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6862</wuid>
-    <x>1081</x>
+    <x>1087</x>
     <y>638</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -12206,7 +12206,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-683b</wuid>
     <x>694</x>
     <y>806</y>
@@ -12257,7 +12257,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-683a</wuid>
     <x>694</x>
@@ -12330,9 +12330,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-6839</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>806</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -12381,10 +12381,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6838</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>806</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -13000,7 +13000,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-682e</wuid>
     <x>694</x>
     <y>848</y>
@@ -13051,7 +13051,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-682d</wuid>
     <x>694</x>
@@ -13124,9 +13124,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-682c</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>848</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -13175,10 +13175,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-682b</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>848</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -14433,7 +14433,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-62f0</wuid>
     <x>694</x>
     <y>932</y>
@@ -14484,7 +14484,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-62ef</wuid>
     <x>694</x>
@@ -14557,9 +14557,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-62ee</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>932</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -14608,10 +14608,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-62ed</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>932</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -15156,7 +15156,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-62e4</wuid>
     <x>694</x>
     <y>974</y>
@@ -15207,7 +15207,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-62e3</wuid>
     <x>694</x>
@@ -15280,9 +15280,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-62e2</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>974</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -15331,10 +15331,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-62e1</wuid>
-    <x>819</x>
+    <x>825</x>
     <y>974</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -18404,7 +18404,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-62ae</wuid>
     <x>956</x>
     <y>1184</y>
@@ -18455,7 +18455,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-62ad</wuid>
     <x>956</x>
@@ -18528,9 +18528,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-62ac</wuid>
-    <x>1081</x>
+    <x>1086</x>
     <y>1184</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -18579,10 +18579,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-62ab</wuid>
-    <x>1081</x>
+    <x>1086</x>
     <y>1184</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -19868,7 +19868,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-6296</wuid>
     <x>956</x>
     <y>1268</y>
@@ -19919,7 +19919,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6295</wuid>
     <x>956</x>
@@ -19992,9 +19992,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wuid>1614ec47:17f6511f663:-6294</wuid>
-    <x>1081</x>
+    <x>1086</x>
     <y>1268</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -20043,10 +20043,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>119</width>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6293</wuid>
-    <x>1081</x>
+    <x>1086</x>
     <y>1268</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
