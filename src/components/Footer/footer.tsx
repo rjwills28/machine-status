@@ -3,7 +3,11 @@ import React from "react";
 export const Footer = (): JSX.Element => {
   return (
     <footer
-      style={{ height: "5vh", color: "var(--light-text)", fontSize: "1.3rem" }}
+      style={{
+        height: "5vh",
+        color: "var(--diamond-blue)",
+        fontSize: "1.3rem"
+      }}
     >
       <p>
         Machine Status version {process.env.REACT_APP_VERSION}{" "}

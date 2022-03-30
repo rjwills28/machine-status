@@ -1,5 +1,5 @@
 .header {
-  height: 10vh;
+  height: 7vh;
   width: 100%;
   position: relative;
   background-color: white;
@@ -11,7 +11,8 @@
 .img {
   display: flex;
   position: absolute;
-  height: 10vh;
+  height: 6vh;
+  padding: 10px 10px;
 }
 
 .h1 {
