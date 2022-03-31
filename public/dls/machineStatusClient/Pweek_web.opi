@@ -835,46 +835,6 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
     <background_color>
-      <color name="White" red="255" green="255" blue="255" />
-    </background_color>
-    <border_color>
-      <color name="Black" red="0" green="0" blue="0" />
-    </border_color>
-    <border_style>1</border_style>
-    <border_width>0</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="liberation sans" height="24" style="1" pixels="true" />
-    </font>
-    <foreground_color>
-      <color red="68" green="74" blue="149" />
-    </foreground_color>
-    <height>48</height>
-    <horizontal_alignment>1</horizontal_alignment>
-    <name>EDM Label_9</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <text>Getting Data</text>
-    <tooltip></tooltip>
-    <transparent>false</transparent>
-    <vertical_alignment>1</vertical_alignment>
-    <visible>true</visible>
-    <widget_type>Label</widget_type>
-    <width>212</width>
-    <wrap_words>false</wrap_words>
-    <wuid>1614ec47:17f6511f663:-6d98</wuid>
-    <x>644</x>
-    <y>65</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
-    <background_color>
       <color red="231" green="240" blue="247" />
     </background_color>
     <border_color>
