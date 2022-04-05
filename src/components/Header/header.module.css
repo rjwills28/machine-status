@@ -1,8 +1,9 @@
 .header {
-  height: 10vh;
+  height: 7vh;
   width: 100%;
   position: relative;
-  background-color: var(--diamond-blue);
+  background-color: white;
+  color: white;
   display: flex;
   font-size: 2vh;
 }
@@ -10,7 +11,8 @@
 .img {
   display: flex;
   position: absolute;
-  height: 10vh;
+  height: 4vh;
+  padding: 20px 20px;
 }
 
 .h1 {
@@ -21,7 +23,6 @@
   flex-basis: 0;
   min-width: 0;
   align-items: center;
-  color: var(--light-text);
 }
 
 .h1 a,

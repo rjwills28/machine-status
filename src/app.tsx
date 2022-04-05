@@ -96,15 +96,7 @@ export const AppWeb: React.FC = (): JSX.Element => (
   <Provider store={store}>
     <div className="AppWeb">
       <Header />
-      <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
-        <Switch>
-          <Redirect exact from="/" to="/machine-status" />
-          <Route path="/machine-status" component={LoadMachineStatusView} />
-          <Route path="/*">
-            <LoadEmbedded />
-          </Route>
-        </Switch>
-      </Profiler>
+      <LoadEmbeddedDirect pathin={"/json/machineStatus"} />
       <Footer />
     </div>
   </Provider>
@@ -170,12 +162,6 @@ const LoadMSMessageView = () => (
   <div>
     <LoadEmbeddedDirect pathin={"/json/ms_message"} />
     <RedirectAfterTimeout urlpath={"day"} pagename={"Operations Messages"} />
-  </div>
-);
-
-const LoadMachineStatusView = () => (
-  <div>
-    <LoadEmbeddedDirect pathin={"/json/machineStatus"} />
   </div>
 );
 
