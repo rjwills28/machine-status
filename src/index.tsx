@@ -6,10 +6,22 @@ import App, { AppWeb } from "./app";
 import reportWebVitals from "./reportWebVitals";
 import { FileProvider, OutlineProvider } from "@dls-controls/cs-web-lib";
 
+/*
+Show one display on initial page load in the DynamicPage
+by setting the initialPageState for the FileProvider context
+*/
+const init_state = {
+  opi: {
+    path: "../dls/machineStatusClient/Pday_web.opi",
+    macros: {},
+    defaultProtocol: "ca"
+  }
+};
+
 if (process.env.REACT_APP_BUILD_TARGET === "web") {
   ReactDOM.render(
     <Router>
-      <FileProvider>
+      <FileProvider initialPageState={init_state}>
         <OutlineProvider>
           <AppWeb />
         </OutlineProvider>
