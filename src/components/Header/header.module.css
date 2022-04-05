@@ -11,8 +11,8 @@
 .img {
   display: flex;
   position: absolute;
-  height: 6vh;
-  padding: 10px 10px;
+  height: 4vh;
+  padding: 20px 20px;
 }
 
 .h1 {
