@@ -125,7 +125,7 @@ class RedirectAfterTimeout extends Component<Props> {
     return this.state.redirect ? (
       <Redirect to={this.props.urlpath} />
     ) : (
-      <div>Content</div>
+      <div></div>
     );
   }
 }
