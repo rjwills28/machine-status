@@ -1,6 +1,6 @@
 import React, { Component, Profiler } from "react";
 import { Provider } from "react-redux";
-import { Redirect, Route, Switch, useRouteMatch } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 import log, { LogLevelDesc } from "loglevel";
 import "./app.css";
 
@@ -15,40 +15,24 @@ import { Footer } from "./components/Footer/footer";
 
 log.setLevel((process.env.REACT_APP_LOG_LEVEL as LogLevelDesc) ?? "info");
 
-const delayTime: number = parseFloat(
-  process.env.REACT_APP_PAGE_DISPLAY_TIME_SEC ?? "5"
-);
+const cycleConfigFile: string = process.env.REACT_APP_CYCLE_CONFIG ?? "";
 
-type Props = {
-  urlpath: string;
+const request = new XMLHttpRequest();
+request.open("GET", cycleConfigFile, false);
+request.send(null);
+const jsonData: { screens: CycleConfig[] } = JSON.parse(request.responseText);
+
+interface CycleConfig {
+  filepath: string;
+  url: string;
   pagename: string;
-};
+  delayTime: number;
+}
+
+let cycleNum = 0;
 
 type PropsPath = {
   pathin: string;
-};
-
-const LoadEmbedded = (): JSX.Element => {
-  const match = useRouteMatch();
-  let path = match.url;
-  if (
-    !match.url.endsWith(".opi") ||
-    match.url.endsWith(".json") ||
-    match.url.endsWith(".bob")
-  ) {
-    path = `${match.url}.json`;
-  }
-
-  return (
-    <EmbeddedDisplay
-      position={new RelativePosition()}
-      file={{
-        path,
-        defaultProtocol: "pva",
-        macros: {}
-      }}
-    />
-  );
 };
 
 const LoadEmbeddedDirect = (props: PropsPath): JSX.Element => {
@@ -66,28 +50,24 @@ const LoadEmbeddedDirect = (props: PropsPath): JSX.Element => {
   );
 };
 
-const App: React.FC = (): JSX.Element => (
+const App: React.FC = (): JSX.Element => {
   // Each instance of context provider allows child components to access
   // the properties on the object placed in value
   // Profiler sends render information whenever child components rerender
-  <Provider store={store}>
-    <div className="App">
-      <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
-        <Switch>
-          <Redirect exact from="/" to="/day" />
-          <Route path="/day" component={LoadMSDayView} />
-          <Route path="/week" component={LoadMSWeekView} />
-          <Route path="/fe1" component={LoadMSFe1View} />
-          <Route path="/fe2" component={LoadMSFe2View} />
-          <Route path="/message" component={LoadMSMessageView} />
-          <Route path="*">
-            <LoadEmbedded />
-          </Route>
-        </Switch>
-      </Profiler>
-    </div>
-  </Provider>
-);
+  return (
+    <Provider store={store}>
+      <div className="App">
+        <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
+          <Switch>
+            <Redirect exact from="/" to={jsonData.screens[cycleNum].url} />
+            <Route path="/refresh" component={TempView} />
+            <Route path="*" component={RedirectAfterTimeout} />
+          </Switch>
+        </Profiler>
+      </div>
+    </Provider>
+  );
+};
 
 export const AppWeb: React.FC = (): JSX.Element => (
   // Each instance of context provider allows child components to access
@@ -102,7 +82,7 @@ export const AppWeb: React.FC = (): JSX.Element => (
   </Provider>
 );
 
-class RedirectAfterTimeout extends Component<Props> {
+class RedirectAfterTimeout extends Component {
   private id: any;
 
   state = {
@@ -112,9 +92,10 @@ class RedirectAfterTimeout extends Component<Props> {
   componentDidMount() {
     this.id = setTimeout(
       () => this.setState({ redirect: true }),
-      delayTime * 1000
+      jsonData.screens[cycleNum].delayTime * 1000
     );
-    document.title = this.props.pagename;
+    document.title = jsonData.screens[cycleNum].pagename;
+    cycleNum = cycleNum + 1;
   }
 
   componentWillUnmount() {
@@ -122,47 +103,19 @@ class RedirectAfterTimeout extends Component<Props> {
     this.setState({ redirect: false });
   }
   render() {
+    if (jsonData.screens.length <= cycleNum) {
+      cycleNum = 0;
+    }
     return this.state.redirect ? (
-      <Redirect to={this.props.urlpath} />
+      <Redirect to={"refresh"} />
     ) : (
-      <div></div>
+      <LoadEmbeddedDirect pathin={jsonData.screens[cycleNum].filepath} />
     );
   }
 }
 
-const LoadMSDayView = () => (
-  <div>
-    <LoadEmbeddedDirect pathin={"/json/ms_day"} />
-    <RedirectAfterTimeout urlpath={"week"} pagename={"Day View"} />
-  </div>
-);
-
-const LoadMSWeekView = () => (
-  <div>
-    <LoadEmbeddedDirect pathin={"/json/ms_week"} />
-    <RedirectAfterTimeout urlpath={"fe1"} pagename={"Week View"} />
-  </div>
-);
-
-const LoadMSFe1View = () => (
-  <div>
-    <LoadEmbeddedDirect pathin={"/json/ms_fe1"} />
-    <RedirectAfterTimeout urlpath={"fe2"} pagename={"Front Ends"} />
-  </div>
-);
-
-const LoadMSFe2View = () => (
-  <div>
-    <LoadEmbeddedDirect pathin={"/json/ms_fe2"} />
-    <RedirectAfterTimeout urlpath={"message"} pagename={"Front Ends"} />
-  </div>
-);
-
-const LoadMSMessageView = () => (
-  <div>
-    <LoadEmbeddedDirect pathin={"/json/ms_message"} />
-    <RedirectAfterTimeout urlpath={"day"} pagename={"Operations Messages"} />
-  </div>
+const TempView = () => (
+  <Redirect exact from="/refresh" to={jsonData.screens[cycleNum].url} />
 );
 
 export default App;
