@@ -1,0 +1,34 @@
+{
+  "screens" : [
+    {
+      "filepath" : "/json/ms_day",
+      "url" : "day",
+      "pagename" : "Day View",
+      "delayTime": 5
+    },
+    {
+      "filepath" : "/json/ms_week",
+      "url" : "week",
+      "pagename" : "Week View",
+      "delayTime": 3
+    },
+    {
+      "filepath" : "/json/ms_fe1",
+      "url" : "fe1",
+      "pagename" : "Front Ends",
+      "delayTime": 2
+    },
+    {
+      "filepath" : "/json/ms_fe2",
+      "url" : "fe2",
+      "pagename" : "Front Ends",
+      "delayTime": 5
+    },
+    {
+      "filepath" : "/json/ms_message",
+      "url" : "message",
+      "pagename" : "Operations Messages",
+      "delayTime": 2
+    }
+  ]
+}
