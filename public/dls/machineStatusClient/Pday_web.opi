@@ -762,7 +762,17 @@ $(pv_value)</tooltip>
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <rules />
+    <rules>
+      <rule name="UpdateGraph" prop_id="image_file" out_exp="false">
+        <exp bool_exp="pv0">
+          <value>https://machine-status-files.diamond.ac.uk/statusGraph.png#1</value>
+        </exp>
+        <exp bool_exp="!pv0">
+          <value>https://machine-status-files.diamond.ac.uk/statusGraph.png#2</value>
+        </exp>
+        <pv trig="true">sim://flipflop(30)</pv>
+      </rule>
+    </rules>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
