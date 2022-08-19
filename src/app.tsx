@@ -15,20 +15,7 @@ import { Footer } from "./components/Footer/footer";
 
 log.setLevel((process.env.REACT_APP_LOG_LEVEL as LogLevelDesc) ?? "info");
 
-const cycleConfigFile: string = process.env.REACT_APP_CYCLE_CONFIG ?? "";
-
-const request = new XMLHttpRequest();
-request.open("GET", cycleConfigFile, false);
-request.send(null);
-const jsonData: { screens: CycleConfig[] } = JSON.parse(request.responseText);
-
-interface CycleConfig {
-  filepath: string;
-  url: string;
-  pagename: string;
-  delayTime: number;
-}
-
+let jsonData: any;
 let cycleNum = 0;
 
 type PropsPath = {
@@ -37,7 +24,6 @@ type PropsPath = {
 
 const LoadEmbeddedDirect = (props: PropsPath): JSX.Element => {
   const path = String(props.pathin) + ".json";
-
   return (
     <EmbeddedDisplay
       position={new RelativePosition()}
@@ -50,18 +36,45 @@ const LoadEmbeddedDirect = (props: PropsPath): JSX.Element => {
   );
 };
 
-const App: React.FC = (): JSX.Element => {
+function parseCycleConfig(json: any): string {
+  if (json.screens == null) {
+    return "JSON file does not contain a 'screens' tag. ";
+  } else {
+    for (const s in json.screens) {
+      const screenIndex = Number(s) + 1;
+      if (json.screens[s].filepath == null) {
+        return "screen " + screenIndex + " is missing 'filepath' parameter";
+      }
+      if (json.screens[s].url == null) {
+        return "screen " + screenIndex + " is missing 'url' parameter";
+      }
+      if (json.screens[s].pagename == null) {
+        return "screen " + screenIndex + " is missing 'pagename' parameter";
+      }
+      if (json.screens[s].delayTime == null) {
+        return "screen " + screenIndex + " is missing 'delayTime' parameter";
+      }
+    }
+    return "";
+  }
+}
+
+const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
   // Each instance of context provider allows child components to access
   // the properties on the object placed in value
   // Profiler sends render information whenever child components rerender
+  jsonData = jsonObj;
+  const errorStatus = parseCycleConfig(jsonData);
+  if (errorStatus.length !== 0) {
+    throw new Error("Error parsing json file " + errorStatus);
+  }
   return (
     <Provider store={store}>
       <div className="App">
         <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
           <Switch>
-            <Redirect exact from="/" to={jsonData.screens[cycleNum].url} />
-            <Route path="/refresh" component={TempView} />
-            <Route path="*" component={RedirectAfterTimeout} />
+            <Route exact path="/" component={LoadView} />
+            <Route path="*" component={LoadRedirectView} />
           </Switch>
         </Profiler>
       </div>
@@ -82,7 +95,32 @@ export const AppWeb: React.FC = (): JSX.Element => (
   </Provider>
 );
 
-class RedirectAfterTimeout extends Component {
+const LoadRedirectView = (): JSX.Element => {
+  const current = cycleNum;
+  cycleNum = cycleNum + 1;
+  if (cycleNum >= jsonData.screens.length) {
+    cycleNum = 0;
+  }
+  return (
+    <RedirectAfterTimeout
+      filepath={jsonData.screens[current].filepath}
+      pagename={jsonData.screens[current].pagename}
+      delayTime={jsonData.screens[current].delayTime}
+    />
+  );
+};
+
+const LoadView = (): JSX.Element => {
+  return <Redirect exact from="/" to={jsonData.screens[cycleNum].url} />;
+};
+
+type RedirectProps = {
+  filepath: string;
+  pagename: string;
+  delayTime: number;
+};
+
+class RedirectAfterTimeout extends Component<RedirectProps> {
   private id: any;
 
   state = {
@@ -92,10 +130,9 @@ class RedirectAfterTimeout extends Component {
   componentDidMount() {
     this.id = setTimeout(
       () => this.setState({ redirect: true }),
-      jsonData.screens[cycleNum].delayTime * 1000
+      this.props.delayTime * 1000
     );
-    document.title = jsonData.screens[cycleNum].pagename;
-    cycleNum = cycleNum + 1;
+    document.title = this.props.pagename;
   }
 
   componentWillUnmount() {
@@ -103,19 +140,12 @@ class RedirectAfterTimeout extends Component {
     this.setState({ redirect: false });
   }
   render() {
-    if (jsonData.screens.length <= cycleNum) {
-      cycleNum = 0;
-    }
     return this.state.redirect ? (
-      <Redirect to={"refresh"} />
+      <Redirect to={"/"} />
     ) : (
-      <LoadEmbeddedDirect pathin={jsonData.screens[cycleNum].filepath} />
+      <LoadEmbeddedDirect pathin={this.props.filepath} />
     );
   }
 }
-
-const TempView = () => (
-  <Redirect exact from="/refresh" to={jsonData.screens[cycleNum].url} />
-);
 
 export default App;
