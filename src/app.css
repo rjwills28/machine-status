@@ -33,6 +33,11 @@ html {
   font-size: 62.5%;
 }
 
+.Error {
+  margin-left: 10px;
+  font-size: 150%;
+}
+
 .App {
   height: 100%;
   overflow: hidden;

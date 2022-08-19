@@ -18,7 +18,36 @@ const init_state = {
   }
 };
 
-if (process.env.REACT_APP_BUILD_TARGET === "web") {
+const cycleConfigFile: string = process.env.REACT_APP_CYCLE_CONFIG_FILE ?? "";
+if (process.env.REACT_APP_BUILD_TARGET === "display") {
+  if (cycleConfigFile === "") {
+    errorPage(
+      new Error("REACT_APP_CYCLE_CONFIG_FILE not defined for 'display' target ")
+    );
+  } else {
+    fetch(cycleConfigFile)
+      .then(response => response.json())
+      .then(jsonObj => loadDisplayApp(jsonObj))
+      .catch(err => errorPage(err));
+  }
+} else {
+  loadWebApp();
+}
+
+function loadDisplayApp(jsonObj: JSON): void {
+  ReactDOM.render(
+    <Router>
+      <FileProvider>
+        <OutlineProvider>
+          <App jsonObj={jsonObj} />
+        </OutlineProvider>
+      </FileProvider>
+    </Router>,
+    document.getElementById("root")
+  );
+}
+
+function loadWebApp(): void {
   ReactDOM.render(
     <Router>
       <FileProvider initialPageState={init_state}>
@@ -29,15 +58,13 @@ if (process.env.REACT_APP_BUILD_TARGET === "web") {
     </Router>,
     document.getElementById("root")
   );
-} else {
+}
+
+function errorPage(err: Error): void {
   ReactDOM.render(
-    <Router>
-      <FileProvider>
-        <OutlineProvider>
-          <App />
-        </OutlineProvider>
-      </FileProvider>
-    </Router>,
+    <div className="Error">
+      <p>{err.message}</p>
+    </div>,
     document.getElementById("root")
   );
 }
