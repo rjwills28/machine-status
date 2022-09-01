@@ -12,6 +12,7 @@ import {
 } from "@dls-controls/cs-web-lib";
 import { Header } from "./components/Header/header";
 import { Footer } from "./components/Footer/footer";
+import Ajv from "ajv";
 
 log.setLevel((process.env.REACT_APP_LOG_LEVEL as LogLevelDesc) ?? "info");
 
@@ -36,42 +37,64 @@ const LoadEmbeddedDirect = (props: PropsPath): JSX.Element => {
   );
 };
 
-function parseCycleConfig(json: any): string {
-  if (json.screens == null) {
-    return "JSON file does not contain a 'screens' tag. ";
-  } else {
-    for (const s in json.screens) {
-      const screenIndex = Number(s) + 1;
-      if (json.screens[s].redirect_url == null) {
-        return "screen " + screenIndex + " is missing 'redirect_url' parameter";
-      }
-      if (json.screens[s].display_url == null) {
-        return "screen " + screenIndex + " is missing 'display_url' parameter";
-      }
-      if (json.screens[s].display_title == null) {
-        return (
-          "screen " + screenIndex + " is missing 'display_title' parameter"
-        );
-      }
-      if (json.screens[s].delay_seconds == null) {
-        return (
-          "screen " + screenIndex + " is missing 'delay_seconds' parameter"
-        );
-      }
-    }
+function parseCycleConfig(jsonData: JSON): string {
+  if (validator(jsonData)) {
     return "";
+  } else {
+    let rtnStr = "";
+    const errors = validator.errors;
+    if (errors) {
+      for (let i = 0; i < errors.length; i++) {
+        const err = errors[i];
+        // Add instance
+        rtnStr = rtnStr + err.instancePath + ": ";
+        rtnStr = rtnStr + err.message;
+      }
+    } else {
+      rtnStr = rtnStr + "Unknown error";
+    }
+    return rtnStr;
   }
 }
+
+const schema = {
+  type: "object",
+  properties: {
+    screens: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          redirect_url: { type: "string" },
+          display_url: { type: "string" },
+          display_title: { type: "string" },
+          delay_seconds: { type: "number" }
+        },
+        required: [
+          "redirect_url",
+          "display_url",
+          "display_title",
+          "delay_seconds"
+        ]
+      }
+    }
+  },
+  required: ["screens"]
+};
+
+const ajv = new Ajv();
+const validator = ajv.compile(schema);
 
 const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
   // Each instance of context provider allows child components to access
   // the properties on the object placed in value
   // Profiler sends render information whenever child components rerender
-  jsonData = jsonObj;
-  const errorStatus = parseCycleConfig(jsonData);
+  const errorStatus = parseCycleConfig(jsonObj);
   if (errorStatus.length !== 0) {
-    throw new Error("Error parsing json file " + errorStatus);
+    throw new Error("Error parsing json file... " + errorStatus);
   }
+  jsonData = jsonObj;
+
   return (
     <Provider store={store}>
       <div className="App">
