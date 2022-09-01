@@ -4,8 +4,23 @@ default:
     - controls
 
 stages:
+  - test
   - build-screen-app
   - build-internal-app
+
+.node_test:
+  stage: test
+  before_script:
+    - npm ci
+  script:
+    - npm run all-checks
+    - npm run test
+
+node 16:
+  extends:
+    .node_test
+  image: node:16
+
 
 build-screen-app:
   stage: build-screen-app
