@@ -42,17 +42,21 @@ function parseCycleConfig(json: any): string {
   } else {
     for (const s in json.screens) {
       const screenIndex = Number(s) + 1;
-      if (json.screens[s].filepath == null) {
-        return "screen " + screenIndex + " is missing 'filepath' parameter";
+      if (json.screens[s].redirect_url == null) {
+        return "screen " + screenIndex + " is missing 'redirect_url' parameter";
       }
-      if (json.screens[s].url == null) {
-        return "screen " + screenIndex + " is missing 'url' parameter";
+      if (json.screens[s].display_url == null) {
+        return "screen " + screenIndex + " is missing 'display_url' parameter";
       }
-      if (json.screens[s].pagename == null) {
-        return "screen " + screenIndex + " is missing 'pagename' parameter";
+      if (json.screens[s].display_title == null) {
+        return (
+          "screen " + screenIndex + " is missing 'display_title' parameter"
+        );
       }
-      if (json.screens[s].delayTime == null) {
-        return "screen " + screenIndex + " is missing 'delayTime' parameter";
+      if (json.screens[s].delay_seconds == null) {
+        return (
+          "screen " + screenIndex + " is missing 'delay_seconds' parameter"
+        );
       }
     }
     return "";
@@ -103,15 +107,17 @@ const LoadRedirectView = (): JSX.Element => {
   }
   return (
     <RedirectAfterTimeout
-      filepath={jsonData.screens[current].filepath}
-      pagename={jsonData.screens[current].pagename}
-      delayTime={jsonData.screens[current].delayTime}
+      filepath={jsonData.screens[current].redirect_url}
+      pagename={jsonData.screens[current].display_title}
+      delayTime={jsonData.screens[current].delay_seconds}
     />
   );
 };
 
 const LoadView = (): JSX.Element => {
-  return <Redirect exact from="/" to={jsonData.screens[cycleNum].url} />;
+  return (
+    <Redirect exact from="/" to={jsonData.screens[cycleNum].display_url} />
+  );
 };
 
 type RedirectProps = {

@@ -9,10 +9,10 @@ it("display app renders without crashing", (): void => {
   {
     "screens" : [
       {
-        "filepath" : "/json/ms_day",
-        "url" : "/day",
-        "pagename" : "Day View",
-        "delayTime": 5
+        "redirect_url" : "/json/ms_day",
+        "display_url" : "/day",
+        "display_title" : "Day View",
+        "delay_seconds": 5
       }
     ]
   }`);
