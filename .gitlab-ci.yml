@@ -7,6 +7,7 @@ stages:
   - test
   - build-screen-app
   - build-internal-app
+  - integration-build
 
 .node_test:
   stage: test
@@ -57,3 +58,10 @@ build-internal-app:
   artifacts:
     paths:
       - build/
+
+integration-build:
+  only:
+  - integration
+  trigger:
+    project: controls/kubernetes/machine_status_deployment
+    branch: integration
