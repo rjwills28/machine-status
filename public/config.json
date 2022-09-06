@@ -29,6 +29,12 @@
       "display_url" : "/message",
       "display_title" : "Operations Messages",
       "delay_seconds": 30
+    },
+    {
+      "redirect_url" : "https://controls-monitoring.diamond.ac.uk",
+      "display_url" : "/monitoring",
+      "display_title" : "Controls monitoring dashboard",
+      "delay_seconds": 30
     }
   ]
 }
