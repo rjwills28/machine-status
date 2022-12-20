@@ -1,9 +1,9 @@
 {
   "name": "machine-status-app",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
-    "@dls-controls/cs-web-lib": "0.1.14",
+    "@dls-controls/cs-web-lib": "0.1.15",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -13,6 +13,7 @@
     "@types/react-dom": "^17.0.2",
     "@types/react-redux": "^7.1.7",
     "@types/react-router-dom": "^5.1.2",
+    "ajv": "^8.11.0",
     "bufferutil": "^4.0.6",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.20.0",

@@ -1,0 +1,34 @@
+{
+  "screens" : [
+    {
+      "redirect_url" : "/json/ms_day",
+      "display_url" : "/day",
+      "display_title" : "Day View",
+      "delay_seconds": 30
+    },
+    {
+      "redirect_url" : "/json/ms_week",
+      "display_url" : "/week",
+      "display_title" : "Week View",
+      "delay_seconds": 30
+    },
+    {
+      "redirect_url" : "/json/ms_fe1",
+      "display_url" : "/fe1",
+      "display_title" : "Front Ends",
+      "delay_seconds": 20
+    },
+    {
+      "redirect_url" : "/json/ms_fe2",
+      "display_url" : "/fe2",
+      "display_title" : "Front Ends",
+      "delay_seconds": 20
+    },
+    {
+      "redirect_url" : "/json/ms_message",
+      "display_url" : "/message",
+      "display_title" : "Operations Messages",
+      "delay_seconds": 30
+    }
+  ]
+}
