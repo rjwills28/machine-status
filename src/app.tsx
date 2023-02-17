@@ -1,6 +1,6 @@
 import React, { Component, Profiler } from "react";
 import { Provider } from "react-redux";
-import { Redirect, Route, Switch } from "react-router-dom";
+import { Redirect, Route, Switch, useParams } from "react-router-dom";
 import log, { LogLevelDesc } from "loglevel";
 import "./app.css";
 
@@ -8,7 +8,8 @@ import {
   EmbeddedDisplay,
   onRenderCallback,
   RelativePosition,
-  store
+  store,
+  Webcam
 } from "@dls-controls/cs-web-lib";
 import { Header } from "./components/Header/header";
 import { Footer } from "./components/Footer/footer";
@@ -101,6 +102,13 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
         <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
           <Switch>
             <Route exact path="/" component={LoadView} />
+            <Route path="/webcam">
+              <Webcam
+                url="http://i12:i12webcam@i12-webcam05.diamond.ac.uk/mjpg/video.mjpg"
+                position={new RelativePosition()}
+              />
+            </Route>
+            <Route path="/webcam-:settings" component={LoadWebcam} />
             <Route path="*" component={LoadRedirectView} />
           </Switch>
         </Profiler>
@@ -140,6 +148,27 @@ const LoadRedirectView = (): JSX.Element => {
 const LoadView = (): JSX.Element => {
   return (
     <Redirect exact from="/" to={jsonData.screens[cycleNum].display_url} />
+  );
+};
+
+const LoadWebcam = (): JSX.Element => {
+  // Get url, pass and user from text
+  let { settings }: any = useParams();
+  // Decode url and any escaped characters
+  try {
+    settings = decodeURI(settings);
+  } catch (err: any) {
+    return (
+      <div className="Error">
+        <p>{err.message}</p>
+      </div>
+    );
+  }
+  return (
+    <Webcam
+      url={`http://${settings}.diamond.ac.uk/mjpg/video.mjpg`}
+      position={new RelativePosition()}
+    ></Webcam>
   );
 };
 
