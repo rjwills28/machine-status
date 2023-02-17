@@ -156,7 +156,7 @@ const LoadWebcam = (): JSX.Element => {
   let { settings }: any = useParams();
   // Decode url and any escaped characters
   try {
-    settings = decodeURI(settings);
+    settings = decodeURIComponent(settings);
   } catch (err: any) {
     return (
       <div className="Error">
