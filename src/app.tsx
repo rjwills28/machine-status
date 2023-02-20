@@ -102,12 +102,6 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
         <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
           <Switch>
             <Route exact path="/" component={LoadView} />
-            <Route path="/webcam">
-              <Webcam
-                url="http://i12:i12webcam@i12-webcam05.diamond.ac.uk/mjpg/video.mjpg"
-                position={new RelativePosition()}
-              />
-            </Route>
             <Route path="/webcam-:settings" component={LoadWebcam} />
             <Route path="*" component={LoadRedirectView} />
           </Switch>
