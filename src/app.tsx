@@ -158,9 +158,11 @@ const LoadWebcam = (): JSX.Element => {
       </div>
     );
   }
+  const [url, fileName] = settings.split("-file=");
+
   return (
     <Webcam
-      url={`http://${settings}.diamond.ac.uk/mjpg/video.mjpg`}
+      url={`http://${url}.diamond.ac.uk${fileName}.mjpg`}
       position={new RelativePosition()}
     ></Webcam>
   );
