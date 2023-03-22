@@ -79,7 +79,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>57</height>
@@ -142,7 +142,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>57</height>
@@ -204,7 +204,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>57</height>
@@ -366,7 +366,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>57</height>
@@ -454,7 +454,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>57</height>
@@ -566,7 +566,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>57</height>
@@ -628,7 +628,7 @@
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0">
     <background_color>
-      <color blue="0" green="192" name="Mid Green" red="0" />
+      <color blue="0" green="224" red="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>57</height>
