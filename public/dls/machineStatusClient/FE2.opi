@@ -477,7 +477,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -534,7 +534,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -591,7 +591,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -648,7 +648,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -811,7 +811,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -868,7 +868,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -925,7 +925,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1151,7 +1151,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1208,7 +1208,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1265,7 +1265,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1383,7 +1383,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1440,7 +1440,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1497,7 +1497,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1705,7 +1705,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1762,7 +1762,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1819,7 +1819,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1937,7 +1937,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -1994,7 +1994,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2051,7 +2051,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2259,7 +2259,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2316,7 +2316,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2373,7 +2373,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2430,7 +2430,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2638,7 +2638,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2695,7 +2695,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2752,7 +2752,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -2960,7 +2960,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3017,7 +3017,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3074,7 +3074,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3131,7 +3131,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3294,7 +3294,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3351,7 +3351,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3487,7 +3487,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3544,7 +3544,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3601,7 +3601,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3809,7 +3809,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3866,7 +3866,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -3923,7 +3923,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4041,7 +4041,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4098,7 +4098,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4324,7 +4324,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4381,7 +4381,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4438,7 +4438,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4556,7 +4556,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4613,7 +4613,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4839,7 +4839,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4896,7 +4896,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -4953,7 +4953,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -5071,7 +5071,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
@@ -5128,7 +5128,7 @@
       <rule name="background_color_machineStatusRule" out_exp="false" prop_id="background_color">
         <exp bool_exp="pv0== 1">
           <value>
-            <color blue="0" green="192" name="Mid Green" red="0" />
+            <color blue="0" green="224" red="0" />
           </value>
         </exp>
         <exp bool_exp="true">
