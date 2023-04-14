@@ -13,6 +13,7 @@ import {
 import { Header } from "./components/Header/header";
 import { Footer } from "./components/Footer/footer";
 import Ajv from "ajv";
+import { LoadI09SDM } from "./i09Sdm002";
 
 log.setLevel((process.env.REACT_APP_LOG_LEVEL as LogLevelDesc) ?? "info");
 
@@ -101,6 +102,9 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
         <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
           <Switch>
             <Route exact path="/" component={LoadView} />
+            <Route path="/i09-sdm">
+              <LoadI09SDM pathin={"/json/i09_sdm002"} />
+            </Route>
             <Route path="*" component={LoadRedirectView} />
           </Switch>
         </Profiler>
