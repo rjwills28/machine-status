@@ -17,7 +17,7 @@ export const LoadI09SDM = (props: PropsPath): JSX.Element => {
   return (
     <>
       <EmbeddedDisplay
-        position={new AbsolutePosition("0", "0", "50%", "50%")}
+        position={new AbsolutePosition("0px", "0px", "740px", "550px")}
         file={{
           path,
           defaultProtocol: "pva",
@@ -27,17 +27,17 @@ export const LoadI09SDM = (props: PropsPath): JSX.Element => {
       <Webcam
         url="http://bl09j-di-serv-01.diamond.ac.uk:8080/SD3.mjpg.mjpg"
         name="1"
-        position={new AbsolutePosition("50%", "0", "50%", "50%")}
+        position={new AbsolutePosition("1180px", "0px", "740px", "550px")}
       ></Webcam>
       <Webcam
         name="2"
         url="http://bl09i-di-serv-01.diamond.ac.uk:8080/XBPM.mjpg.mjpg"
-        position={new AbsolutePosition("0", "50%", "50%", "50%")}
+        position={new AbsolutePosition("1180px", "600px", "740px", "550px")}
       ></Webcam>
       <Webcam
         name="3"
         url="http://bl09j-di-serv-01.diamond.ac.uk:8081/EAV.MJPG.mjpg"
-        position={new AbsolutePosition("50%", "50%", "50%", "50%")}
+        position={new AbsolutePosition("0px", "600px", "740px", "550px")}
       ></Webcam>
     </>
   );
