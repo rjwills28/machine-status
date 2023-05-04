@@ -5,10 +5,12 @@ import log, { LogLevelDesc } from "loglevel";
 import "./app.css";
 
 import {
+  AbsolutePosition,
   EmbeddedDisplay,
   onRenderCallback,
   RelativePosition,
-  store
+  store,
+  Webcam
 } from "@dls-controls/cs-web-lib";
 import { Header } from "./components/Header/header";
 import { Footer } from "./components/Footer/footer";
@@ -102,11 +104,153 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
         <Profiler id="Dynamic Page Profiler" onRender={onRenderCallback}>
           <Switch>
             <Route exact path="/" component={LoadView} />
+            <Route path="/i05-sdm004">
+              <LoadSingleWebcam
+                url={
+                  "http://i05user:!05u5er#@i05-webcam7.diamond.ac.uk/mjpg/video.mjpg"
+                }
+                title="i05-webcam7"
+              />
+            </Route>
+            <Route path="/i05-sdm005">
+              <LoadSingleWebcam
+                url={
+                  "http://i05user:!05u5er#@i05-webcam7.diamond.ac.uk/mjpg/2/video.mjpg"
+                }
+                title="i05-webcam7"
+              />
+            </Route>
             <Route path="/i09-sdm002">
               <LoadI09SDM002 pathin={"/json/i09_sdm002"} />
             </Route>
             <Route path="/i09-sdm005">
               <LoadI09SDM005 pathin={"/json/i09_sdm002"} />
+            </Route>
+            <Route path="/i11-sdm002">
+              <LoadSingleWebcam
+                url={"http://i11-webcam1.diamond.ac.uk/mjpg/video.mjpg"}
+                title="webcam1"
+              />
+            </Route>
+            <Route path="/i11-sdm003">
+              <Load4Webcams
+                urls={[
+                  "http://i11-webcam13.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://i11-webcam12.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://i11-webcam4.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://i11-webcam7.diamond.ac.uk/mjpg/video.mjpg"
+                ]}
+                titles={["EH2", "EH1"]}
+              />
+            </Route>
+            <Route path="/i11-sdm004-0">
+              <LoadSingleWebcam
+                url={
+                  "http://BL11I-DI-SERV-01.diamond.ac.uk:8082/ALCAM1.mjpg.mjpg"
+                }
+                title="ALCAM1"
+              />
+            </Route>
+            <Route path="/i11-sdm004-1">
+              <LoadSingleWebcam
+                url={
+                  "http://BL11I-DI-SERV-01.diamond.ac.uk:8082/ALCAM2.mjpg.mjpg"
+                }
+                title="ALCAM2"
+              />
+            </Route>
+            <Route path="/i11-sdm005-0">
+              <LoadSingleWebcam
+                url={
+                  "http://BL11I-DI-SERV-01.diamond.ac.uk:8082/ALCAM1.mjpg.mjpg"
+                }
+                title="ALCAM1"
+              />
+            </Route>
+            <Route path="/i11-sdm005-1">
+              <LoadSingleWebcam
+                url={
+                  "http://BL11I-DI-SERV-01.diamond.ac.uk:8082/ALCAM2.mjpg.mjpg"
+                }
+                title="ALCAM2"
+              />
+            </Route>
+            <Route path="/i11-sdm006">
+              <LoadSingleWebcam
+                url={"http://i11-webcam1.diamond.ac.uk/mjpg/video.mjpg"}
+                title="webcam1"
+              />
+            </Route>
+            <Route path="/i11-sdm007-0">
+              <LoadSingleWebcam
+                url={"http://i11-webcam12.diamond.ac.uk/mjpg/video.mjpg"}
+                title="webcam12"
+              />
+            </Route>
+            <Route path="/i11-sdm007-1">
+              <LoadSingleWebcam
+                url={"http://i11-webcam13.diamond.ac.uk/mjpg/video.mjpg"}
+                title="webcam13"
+              />
+            </Route>
+            <Route path="/i12-sdm003">
+              <LoadSingleWebcam
+                url={
+                  "http://i12:i12webcam@i12-webcam05.diamond.ac.uk/mjpg/video.mjpg"
+                }
+                title="webcam05"
+              />
+            </Route>
+            <Route path="/i12-sdm004">
+              <LoadSingleWebcam
+                url={
+                  "http://i12:i12webcam@i12-webcam04.diamond.ac.uk/mjpg/video.mjpg"
+                }
+                title="webcam04"
+              />
+            </Route>
+            <Route path="/i14-sdm001">
+              <Load4Webcams
+                urls={[
+                  "http://i14-webcam6.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://i14-webcam7.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://i14-webcam5.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://bl14i-di-serv-02.diamond.ac.uk:8083/TAB.mjpg.mjpg"
+                ]}
+                titles={[
+                  "Webcam 6 (T), Webcam 7 (B)",
+                  "Webcam 5 (T), Sample (B)"
+                ]}
+              />
+            </Route>
+            <Route path="/i15-1-sdm002">
+              <LoadSingleWebcam
+                url={"http://i15-1-motion01.diamond.ac.uk:8094/JWEB1.mjpg.mjpg"}
+                title="webcam1"
+              />
+            </Route>
+            <Route path="/k11-sdm001">
+              <LoadSingleWebcam
+                url={"http://k11-webcam06.diamond.ac.uk/mjpg/video.mjpg"}
+                title="webcam06"
+              />
+            </Route>
+            <Route path="/k11-sdm002">
+              <LoadSingleWebcam
+                url={"http://k11-webcam05.diamond.ac.uk/mjpg/video.mjpg"}
+                title="webcam05"
+              />
+            </Route>
+            <Route path="/k11-sdm003">
+              <Load4Webcams
+                urls={[
+                  "http://k11-webcam01.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://k11-webcam02.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://k11-webcam04.diamond.ac.uk/mjpg/video.mjpg",
+                  "http://k11-webcam05.diamond.ac.uk/mjpg/video.mjpg"
+                ]}
+                titles={["Optics Hutch", "Experimental Hutch"]}
+              />
             </Route>
             <Route path="*" component={LoadRedirectView} />
           </Switch>
@@ -148,6 +292,64 @@ const LoadView = (): JSX.Element => {
   return (
     <Redirect exact from="/" to={jsonData.screens[cycleNum].display_url} />
   );
+};
+
+export const LoadSingleWebcam = (props: PropsUrl): JSX.Element => {
+  let header: string = props.url;
+  if (props.title) header = props.title;
+  return (
+    <>
+      <h2 id="header">{header}</h2>
+      <Webcam
+        url={props.url}
+        name="webcam"
+        position={new AbsolutePosition("0", "6%", "100%", "100%")}
+      ></Webcam>
+    </>
+  );
+};
+
+export const Load4Webcams = (props: PropsUrls): JSX.Element => {
+  // If no titles specified, leave a blank space
+  let headers: string[] = ["", ""];
+  if (props.titles) headers = props.titles;
+  return (
+    <>
+      <h2 id="header">Status Display</h2>
+      <Webcam
+        url={props.urls[0]}
+        name="webcam"
+        position={new AbsolutePosition("7%", "6%", "40%", "40%")}
+      ></Webcam>
+      <h2 id="leftheader">{headers[0]}</h2>
+      <Webcam
+        url={props.urls[1]}
+        name="webcam"
+        position={new AbsolutePosition("7%", "50%", "40%", "40%")}
+      ></Webcam>
+      <Webcam
+        url={props.urls[2]}
+        name="webcam"
+        position={new AbsolutePosition("53%", "6%", "40%", "40%")}
+      ></Webcam>
+      <h2 id="rightheader">{headers[1]}</h2>
+      <Webcam
+        url={props.urls[3]}
+        name="webcam"
+        position={new AbsolutePosition("53%", "50%", "40%", "40%")}
+      ></Webcam>
+    </>
+  );
+};
+
+type PropsUrl = {
+  url: string;
+  title?: string;
+};
+
+type PropsUrls = {
+  urls: string[];
+  titles?: string[];
 };
 
 type RedirectProps = {
