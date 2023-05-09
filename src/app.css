@@ -89,30 +89,3 @@ html {
   text-align: right;
   height: 200px;
 }
-
-#header {
-  position: static;
-  font-size: calc(5px + 2vmin);
-  height: 5%;
-  left: 33%;
-  top: 0%;
-  text-align: center;
-}
-
-#leftheader {
-  position: absolute;
-  font-size: calc(5px + 2vmin);
-  height: 5%;
-  left: 7%;
-  top: 43%;
-  text-align: center;
-}
-
-#rightheader {
-  position: absolute;
-  font-size: calc(5px + 2vmin);
-  height: 5%;
-  left: 58%;
-  top: 43%;
-  text-align: center;
-}

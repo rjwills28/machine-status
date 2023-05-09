@@ -5,17 +5,19 @@ import log, { LogLevelDesc } from "loglevel";
 import "./app.css";
 
 import {
-  AbsolutePosition,
   EmbeddedDisplay,
   onRenderCallback,
   RelativePosition,
-  store,
-  Webcam
+  store
 } from "@dls-controls/cs-web-lib";
 import { Header } from "./components/Header/header";
 import { Footer } from "./components/Footer/footer";
 import Ajv from "ajv";
 import { LoadI09SDM002, LoadI09SDM005 } from "./customDisplays/i09/sdm";
+import {
+  LoadSingleWebcam,
+  LoadFourWebcams
+} from "./customDisplays/loadWebcamDisplays";
 
 log.setLevel((process.env.REACT_APP_LOG_LEVEL as LogLevelDesc) ?? "info");
 
@@ -133,7 +135,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
               />
             </Route>
             <Route path="/i11-sdm003">
-              <Load4Webcams
+              <LoadFourWebcams
                 urls={[
                   "http://i11-webcam13.diamond.ac.uk/mjpg/video.mjpg",
                   "http://i11-webcam12.diamond.ac.uk/mjpg/video.mjpg",
@@ -210,7 +212,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
               />
             </Route>
             <Route path="/i14-sdm001">
-              <Load4Webcams
+              <LoadFourWebcams
                 urls={[
                   "http://i14-webcam6.diamond.ac.uk/mjpg/video.mjpg",
                   "http://i14-webcam7.diamond.ac.uk/mjpg/video.mjpg",
@@ -242,7 +244,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
               />
             </Route>
             <Route path="/k11-sdm003">
-              <Load4Webcams
+              <LoadFourWebcams
                 urls={[
                   "http://k11-webcam01.diamond.ac.uk/mjpg/video.mjpg",
                   "http://k11-webcam02.diamond.ac.uk/mjpg/video.mjpg",
@@ -292,64 +294,6 @@ const LoadView = (): JSX.Element => {
   return (
     <Redirect exact from="/" to={jsonData.screens[cycleNum].display_url} />
   );
-};
-
-export const LoadSingleWebcam = (props: PropsUrl): JSX.Element => {
-  let header: string = props.url;
-  if (props.title) header = props.title;
-  return (
-    <>
-      <h2 id="header">{header}</h2>
-      <Webcam
-        url={props.url}
-        name="webcam"
-        position={new AbsolutePosition("0", "6%", "100%", "100%")}
-      ></Webcam>
-    </>
-  );
-};
-
-export const Load4Webcams = (props: PropsUrls): JSX.Element => {
-  // If no titles specified, leave a blank space
-  let headers: string[] = ["", ""];
-  if (props.titles) headers = props.titles;
-  return (
-    <>
-      <h2 id="header">Status Display</h2>
-      <Webcam
-        url={props.urls[0]}
-        name="webcam"
-        position={new AbsolutePosition("7%", "6%", "40%", "40%")}
-      ></Webcam>
-      <h2 id="leftheader">{headers[0]}</h2>
-      <Webcam
-        url={props.urls[1]}
-        name="webcam"
-        position={new AbsolutePosition("7%", "50%", "40%", "40%")}
-      ></Webcam>
-      <Webcam
-        url={props.urls[2]}
-        name="webcam"
-        position={new AbsolutePosition("53%", "6%", "40%", "40%")}
-      ></Webcam>
-      <h2 id="rightheader">{headers[1]}</h2>
-      <Webcam
-        url={props.urls[3]}
-        name="webcam"
-        position={new AbsolutePosition("53%", "50%", "40%", "40%")}
-      ></Webcam>
-    </>
-  );
-};
-
-type PropsUrl = {
-  url: string;
-  title?: string;
-};
-
-type PropsUrls = {
-  urls: string[];
-  titles?: string[];
 };
 
 type RedirectProps = {
