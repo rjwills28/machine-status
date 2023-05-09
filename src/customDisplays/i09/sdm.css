@@ -1,0 +1,48 @@
+#SD3header {
+    position: absolute;
+    left: 1300px;
+    top: 545px;
+    text-align: center;
+}
+
+#XBPMheader {
+    position: absolute;
+    left: 1300px;
+    top: 570px;
+    text-align: center;
+}
+
+#EAVheader {
+    position: absolute;
+    left: 150px;
+    top: 570px;
+    text-align: center;
+}
+
+#ES2-4header {
+    position: absolute;
+    left: 1350px;
+    top: 510px;
+    text-align: center;
+}
+
+#ES2-5header {
+    position: absolute;
+    left: 1350px;
+    top: 550px;
+    text-align: center;
+}
+
+#ES2-6header {
+    position: absolute;
+    left: 80px;
+    top: 550px;
+    text-align: center;
+}
+
+#ES2-7header {
+    position: absolute;
+    left: 660px;
+    top: 550px;
+    text-align: center;
+}
