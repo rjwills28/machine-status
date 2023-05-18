@@ -14,6 +14,7 @@ type PropsPath = {
 // layout of the original bash script and .edl file
 export const LoadI09SDM002 = (props: PropsPath): JSX.Element => {
   const path = String(props.pathin) + ".json";
+  document.title = "i09-sdm002 Monitor 0";
   // 1 OPI screen and 3 webcam laid out in a grid
   return (
     <>
@@ -57,6 +58,7 @@ export const LoadI09SDM002 = (props: PropsPath): JSX.Element => {
 // layout of the original bash script and .edl file
 export const LoadI09SDM005 = (props: PropsPath): JSX.Element => {
   const path = String(props.pathin) + ".json";
+  document.title = "i09-sdm005 Monitor 0";
   // 1 OPI screen and 4 webcam laid out in a grid
   return (
     <>

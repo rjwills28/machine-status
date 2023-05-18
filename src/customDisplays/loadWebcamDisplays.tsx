@@ -5,12 +5,14 @@ import "./webcams.css";
 // URL and display name for single webcam
 type SingleWebcamProps = {
   url: string;
+  windowTitle: string;
   title?: string;
 };
 
 // Array of URLs and display names for 4 webcams
 type FourWebcamProps = {
   urls: string[];
+  windowTitle: string;
   titles?: string[];
 };
 
@@ -18,6 +20,7 @@ type FourWebcamProps = {
 export const LoadSingleWebcam = (props: SingleWebcamProps): JSX.Element => {
   // If no title specified, use webcam URL
   let header: string = props.url;
+  document.title = props.windowTitle;
   if (props.title) header = props.title;
   return (
     <>
@@ -36,6 +39,7 @@ export const LoadSingleWebcam = (props: SingleWebcamProps): JSX.Element => {
 export const LoadFourWebcams = (props: FourWebcamProps): JSX.Element => {
   // If no titles specified, leave a blank space
   let headers: string[] = ["", ""];
+  document.title = props.windowTitle;
   if (props.titles) headers = props.titles;
   return (
     <>
