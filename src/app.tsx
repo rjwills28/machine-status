@@ -111,6 +111,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 url={
                   "http://i05user:!05u5er#@i05-webcam7.diamond.ac.uk/mjpg/video.mjpg"
                 }
+                windowTitle="i05-sdm004 Monitor 0"
                 title="i05-webcam7"
               />
             </Route>
@@ -119,6 +120,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 url={
                   "http://i05user:!05u5er#@i05-webcam7.diamond.ac.uk/mjpg/2/video.mjpg"
                 }
+                windowTitle="i05-sdm005 Monitor 0"
                 title="i05-webcam7"
               />
             </Route>
@@ -131,6 +133,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
             <Route path="/i11-sdm002">
               <LoadSingleWebcam
                 url={"http://i11-webcam1.diamond.ac.uk/mjpg/video.mjpg"}
+                windowTitle="i11-sdm002 Monitor 0"
                 title="webcam1"
               />
             </Route>
@@ -142,6 +145,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                   "http://i11-webcam4.diamond.ac.uk/mjpg/video.mjpg",
                   "http://i11-webcam7.diamond.ac.uk/mjpg/video.mjpg"
                 ]}
+                windowTitle="i11-sdm003 Monitor 0"
                 titles={["EH2", "EH1"]}
               />
             </Route>
@@ -150,6 +154,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 url={
                   "http://BL11I-DI-SERV-01.diamond.ac.uk:8082/ALCAM1.mjpg.mjpg"
                 }
+                windowTitle="i11-sdm004 Monitor 0"
                 title="ALCAM1"
               />
             </Route>
@@ -158,6 +163,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 url={
                   "http://BL11I-DI-SERV-01.diamond.ac.uk:8082/ALCAM2.mjpg.mjpg"
                 }
+                windowTitle="i11-sdm004 Monitor 1"
                 title="ALCAM2"
               />
             </Route>
@@ -166,6 +172,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 url={
                   "http://BL11I-DI-SERV-01.diamond.ac.uk:8082/ALCAM1.mjpg.mjpg"
                 }
+                windowTitle="i11-sdm005 Monitor 0"
                 title="ALCAM1"
               />
             </Route>
@@ -174,24 +181,28 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 url={
                   "http://BL11I-DI-SERV-01.diamond.ac.uk:8082/ALCAM2.mjpg.mjpg"
                 }
+                windowTitle="i11-sdm005 Monitor 1"
                 title="ALCAM2"
               />
             </Route>
             <Route path="/i11-sdm006">
               <LoadSingleWebcam
                 url={"http://i11-webcam1.diamond.ac.uk/mjpg/video.mjpg"}
+                windowTitle="i11-sdm006 Monitor 0"
                 title="webcam1"
               />
             </Route>
             <Route path="/i11-sdm007-0">
               <LoadSingleWebcam
                 url={"http://i11-webcam12.diamond.ac.uk/mjpg/video.mjpg"}
+                windowTitle="i11-sdm007 Monitor 0"
                 title="webcam12"
               />
             </Route>
             <Route path="/i11-sdm007-1">
               <LoadSingleWebcam
                 url={"http://i11-webcam13.diamond.ac.uk/mjpg/video.mjpg"}
+                windowTitle="i11-sdm007 Monitor 1"
                 title="webcam13"
               />
             </Route>
@@ -200,6 +211,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 url={
                   "http://i12:i12webcam@i12-webcam05.diamond.ac.uk/mjpg/video.mjpg"
                 }
+                windowTitle="i12-sdm003 Monitor 0"
                 title="webcam05"
               />
             </Route>
@@ -208,6 +220,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 url={
                   "http://i12:i12webcam@i12-webcam04.diamond.ac.uk/mjpg/video.mjpg"
                 }
+                windowTitle="i12-sdm004 Monitor 0"
                 title="webcam04"
               />
             </Route>
@@ -219,6 +232,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                   "http://i14-webcam5.diamond.ac.uk/mjpg/video.mjpg",
                   "http://bl14i-di-serv-02.diamond.ac.uk:8083/TAB.mjpg.mjpg"
                 ]}
+                windowTitle="i14-sdm001 Monitor 0"
                 titles={[
                   "Webcam 6 (T), Webcam 7 (B)",
                   "Webcam 5 (T), Sample (B)"
@@ -228,18 +242,21 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
             <Route path="/i15-1-sdm002">
               <LoadSingleWebcam
                 url={"http://i15-1-motion01.diamond.ac.uk:8094/JWEB1.mjpg.mjpg"}
+                windowTitle="i15-1-sdm002 Monitor 0"
                 title="webcam1"
               />
             </Route>
             <Route path="/k11-sdm001">
               <LoadSingleWebcam
                 url={"http://k11-webcam06.diamond.ac.uk/mjpg/video.mjpg"}
+                windowTitle="k11-sdm001 Monitor 0"
                 title="webcam06"
               />
             </Route>
             <Route path="/k11-sdm002">
               <LoadSingleWebcam
                 url={"http://k11-webcam05.diamond.ac.uk/mjpg/video.mjpg"}
+                windowTitle="k11-sdm002 Monitor 0"
                 title="webcam05"
               />
             </Route>
@@ -251,6 +268,7 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                   "http://k11-webcam04.diamond.ac.uk/mjpg/video.mjpg",
                   "http://k11-webcam05.diamond.ac.uk/mjpg/video.mjpg"
                 ]}
+                windowTitle="k11-sdm003 Monitor 0"
                 titles={["Optics Hutch", "Experimental Hutch"]}
               />
             </Route>
