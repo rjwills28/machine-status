@@ -224,6 +224,13 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
                 title="webcam04"
               />
             </Route>
+            <Route path="/i12-sdm005">
+              <LoadSingleWebcam
+                url={"http://i12-webcam111.diamond.ac.uk/mjpg/video.mjpg"}
+                windowTitle="i12-sdm005 Monitor 0"
+                title="Test Webcam"
+              />
+            </Route>
             <Route path="/i14-sdm001">
               <LoadFourWebcams
                 urls={[
