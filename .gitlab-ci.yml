@@ -18,10 +18,8 @@ stages:
     - npm run test
 
 node 16:
-  extends:
-    .node_test
+  extends: .node_test
   image: node:16
-
 
 build-screen-app:
   stage: build-screen-app
@@ -47,11 +45,11 @@ build-internal-app:
   script:
     - npm ci
     # Environment variables are captured at build time.
-    - export REACT_APP_CONIQL_SOCKET=coniql.diamond.ac.uk:443
+    - export REACT_APP_CONIQL_SOCKET=coniql-public.diamond.ac.uk:443
     - export REACT_APP_CONIQL_SSL=true
     - export REACT_APP_VERSION=$CI_UPSTREAM_TAG
     - export REACT_APP_BUILD_TIME=$(date --iso=minutes)
-    - export REACT_APP_BASE_URL=machine-status-screen.diamond.ac.uk
+    - export REACT_APP_BASE_URL=machine-status.diamond.ac.uk
     - export REACT_APP_PAGE_DISPLAY_TIME_SEC=15
     - export REACT_APP_BUILD_TARGET=web
     - npm run build
@@ -61,7 +59,7 @@ build-internal-app:
 
 integration-build:
   only:
-  - integration
+    - integration
   trigger:
     project: controls/kubernetes/machine_status_deployment
     branch: integration
