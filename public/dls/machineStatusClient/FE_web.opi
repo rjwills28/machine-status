@@ -473,7 +473,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR02I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -1143,7 +1143,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR02J-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -1813,7 +1813,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR03I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -2483,7 +2483,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR04I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -3153,7 +3153,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR04J-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -3947,7 +3947,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR05I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -4741,7 +4741,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR06I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -4870,7 +4870,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR06I-MO-SERVC-21:CURRGAPD</pv_name>
     <pv_value />
@@ -5793,7 +5793,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR07I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -6925,7 +6925,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR08I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -7595,7 +7595,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR09I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -8265,7 +8265,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR09J-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -8935,7 +8935,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR10I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -9064,7 +9064,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR10I-MO-SERVC-21:CURRGAPD</pv_name>
     <pv_value />
@@ -9987,7 +9987,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR11I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -10657,7 +10657,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR11K-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -11860,7 +11860,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR13I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -12654,7 +12654,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR13J-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -13448,7 +13448,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR14I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -15538,7 +15538,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_109</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR16I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -16736,7 +16736,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_117</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR18I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -17934,7 +17934,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_125</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR19I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -18728,7 +18728,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_131</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR20I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -19398,7 +19398,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_136</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR20J-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -20192,7 +20192,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_142</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR21I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -21253,7 +21253,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_148</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR22I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -22385,7 +22385,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_155</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR23I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
@@ -23517,7 +23517,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>EDM TextInput_162</name>
-    <precision>1</precision>
+    <precision>2</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>SR24I-MO-SERVC-01:CURRGAPD</pv_name>
     <pv_value />
