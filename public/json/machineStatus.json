@@ -93,7 +93,7 @@
         },
         {
           "type": "actionbutton",
-          "text": "Front Ends",
+          "text": "ID and Beamline Status",
           "position": "relative",
           "width": "12%",
           "margin": "0% 0% 0% 0%",
