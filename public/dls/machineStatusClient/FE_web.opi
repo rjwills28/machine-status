@@ -90,6 +90,65 @@ $(pv_value)</tooltip>
     <x>0</x>
     <y>-8</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="231" green="240" blue="247" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="231" green="240" blue="247" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>34</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>88</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -120,7 +179,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>Beamline</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -128,6 +187,65 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6903</wuid>
     <x>24</x>
+    <y>88</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="231" green="240" blue="247" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="231" green="240" blue="247" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>34</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>180</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>118</x>
     <y>88</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -160,7 +278,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>Gap (mm)</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -168,6 +286,65 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6902</wuid>
     <x>118</x>
+    <y>88</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="231" green="240" blue="247" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="231" green="240" blue="247" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>34</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>180</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>310</x>
     <y>88</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -200,7 +377,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>Field (T)</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -208,6 +385,65 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6901</wuid>
     <x>310</x>
+    <y>88</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="231" green="240" blue="247" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="231" green="240" blue="247" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>34</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>180</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>502</x>
     <y>88</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -240,7 +476,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>Port Shutter</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -248,6 +484,65 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-6900</wuid>
     <x>502</x>
+    <y>88</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="231" green="240" blue="247" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="231" green="240" blue="247" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>34</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>250</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>694</x>
     <y>88</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -280,7 +575,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>Optics Shutter</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -288,6 +583,65 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>1614ec47:17f6511f663:-68ff</wuid>
     <x>694</x>
+    <y>88</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="231" green="240" blue="247" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="231" green="240" blue="247" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="231" green="240" blue="247" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>34</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>250</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>956</x>
     <y>88</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -320,7 +674,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>Exptl Shutter</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -329,6 +683,65 @@ $(pv_value)</tooltip>
     <wuid>1614ec47:17f6511f663:-68fe</wuid>
     <x>956</x>
     <y>88</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>134</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -360,7 +773,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I02</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -388,6 +801,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="244" green="255" blue="224" />
@@ -517,6 +932,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -646,6 +1063,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -770,6 +1189,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -894,6 +1315,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -1000,6 +1423,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>134</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>176</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -1030,7 +1512,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>J02</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -1058,6 +1540,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -1187,6 +1671,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -1316,6 +1802,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -1440,6 +1928,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -1564,6 +2054,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -1670,6 +2162,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>176</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>218</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -1700,7 +2251,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I03</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -1728,6 +2279,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -1857,6 +2410,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -1986,6 +2541,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -2110,6 +2667,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -2234,6 +2793,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -2340,6 +2901,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>218</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>260</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -2370,7 +2990,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I04</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -2398,6 +3018,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -2527,6 +3149,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -2656,6 +3280,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -2780,6 +3406,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -2904,6 +3532,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -3010,6 +3640,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>260</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>302</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -3040,7 +3729,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>J04</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -3068,6 +3757,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -3197,6 +3888,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -3326,6 +4019,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -3450,6 +4145,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -3574,6 +4271,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -3698,6 +4397,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -3804,6 +4505,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>302</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>344</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -3834,7 +4594,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I05</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -3862,6 +4622,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -3991,6 +4753,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -4120,6 +4884,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -4244,6 +5010,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -4368,6 +5136,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -4492,6 +5262,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -4598,6 +5370,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>344</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>386</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -4628,7 +5459,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I06</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -4656,6 +5487,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -4785,6 +5618,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -4914,6 +5749,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -5043,6 +5880,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -5172,6 +6011,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -5296,6 +6137,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -5420,6 +6263,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -5544,6 +6389,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -5650,6 +6497,65 @@ $(pv_value)</tooltip>
     <x>1086</x>
     <y>386</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>428</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -5680,7 +6586,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I07</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -5708,6 +6614,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -5837,6 +6745,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -5966,6 +6876,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6090,6 +7002,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6214,6 +7128,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6320,6 +7236,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>428</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>470</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -6350,7 +7325,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>B07</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -6378,6 +7353,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6436,6 +7413,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6494,6 +7473,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6618,6 +7599,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6742,6 +7725,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6782,6 +7767,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>470</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>512</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -6812,7 +7856,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I08</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -6840,6 +7884,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -6969,6 +8015,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -7098,6 +8146,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -7222,6 +8272,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -7346,6 +8398,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -7452,6 +8506,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>512</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>554</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -7482,7 +8595,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I09</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -7510,6 +8623,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -7639,6 +8754,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -7768,6 +8885,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -7892,6 +9011,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -8016,6 +9137,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -8122,6 +9245,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>554</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>596</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -8152,7 +9334,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>J09</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -8180,6 +9362,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -8309,6 +9493,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -8438,6 +9624,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -8562,6 +9750,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -8686,6 +9876,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -8792,6 +9984,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>596</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>638</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -8822,7 +10073,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I10</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -8850,6 +10101,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -8979,6 +10232,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -9108,6 +10363,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -9237,6 +10494,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -9366,6 +10625,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -9490,6 +10751,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -9614,6 +10877,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -9738,6 +11003,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -9844,6 +11111,65 @@ $(pv_value)</tooltip>
     <x>1087</x>
     <y>638</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>680</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -9874,7 +11200,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I11</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -9902,6 +11228,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -10031,6 +11359,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -10160,6 +11490,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -10284,6 +11616,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -10408,6 +11742,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -10514,6 +11850,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>680</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>722</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -10544,7 +11939,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>K11</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -10572,6 +11967,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -10701,6 +12098,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -10830,6 +12229,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -10954,6 +12355,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -11078,6 +12481,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -11118,6 +12523,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>722</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>764</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -11148,7 +12612,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I12</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -11176,6 +12640,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -11234,6 +12700,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -11363,6 +12831,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -11487,6 +12957,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -11611,6 +13083,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -11717,6 +13191,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>764</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>806</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -11747,7 +13280,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I13</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -11775,6 +13308,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -11904,6 +13439,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -12033,6 +13570,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -12157,6 +13696,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -12281,6 +13822,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -12405,6 +13948,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -12511,6 +14056,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>806</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>848</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -12541,7 +14145,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>J13</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -12569,6 +14173,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -12698,6 +14304,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -12827,6 +14435,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -12951,6 +14561,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -13075,6 +14687,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -13199,6 +14813,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -13305,6 +14921,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>848</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>890</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -13335,7 +15010,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I14</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -13363,6 +15038,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -13492,6 +15169,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -13621,6 +15300,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -13745,6 +15426,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -13869,6 +15552,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14015,6 +15700,65 @@ $(pv_value)</tooltip>
     <x>24</x>
     <y>8</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>932</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -14045,7 +15789,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I15</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -14073,6 +15817,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14131,6 +15877,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14260,6 +16008,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14384,6 +16134,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14508,6 +16260,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14632,6 +16386,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14738,6 +16494,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>932</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>974</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -14768,7 +16583,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>J15</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -14796,6 +16611,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14854,6 +16671,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -14983,6 +16802,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -15107,6 +16928,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -15231,6 +17054,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -15355,6 +17180,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -15395,6 +17222,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>974</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1016</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -15425,7 +17311,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I16</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -15453,6 +17339,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -15582,6 +17470,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -15711,6 +17601,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -15835,6 +17727,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -15959,6 +17853,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -16065,6 +17961,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1016</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1058</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -16095,7 +18050,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>B16</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -16123,6 +18078,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -16181,6 +18138,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -16239,6 +18198,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -16363,6 +18324,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -16487,6 +18450,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -16593,6 +18558,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1058</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1100</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -16623,7 +18647,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I18</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -16651,6 +18675,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -16780,6 +18806,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -16909,6 +18937,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17033,6 +19063,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17157,6 +19189,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17263,6 +19297,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1100</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1142</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -17293,7 +19386,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>B18</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -17321,6 +19414,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17379,6 +19474,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17437,6 +19534,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17561,6 +19660,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17685,6 +19786,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17791,6 +19894,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1142</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1184</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -17821,7 +19983,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I19</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -17849,6 +20011,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -17978,6 +20142,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -18107,6 +20273,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -18231,6 +20399,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -18355,6 +20525,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -18479,6 +20651,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -18585,6 +20759,65 @@ $(pv_value)</tooltip>
     <x>1086</x>
     <y>1184</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1226</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -18615,7 +20848,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I20</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -18643,6 +20876,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -18772,6 +21007,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -18901,6 +21138,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -19025,6 +21264,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -19149,6 +21390,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -19255,6 +21498,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1226</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1268</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -19285,7 +21587,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>J20</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -19313,6 +21615,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -19442,6 +21746,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -19571,6 +21877,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -19695,6 +22003,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -19819,6 +22129,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -19943,6 +22255,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20049,6 +22363,65 @@ $(pv_value)</tooltip>
     <x>1086</x>
     <y>1268</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1310</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -20079,7 +22452,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I21</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -20107,6 +22480,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20236,6 +22611,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20294,6 +22671,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20418,6 +22797,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20542,6 +22923,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20582,6 +22965,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1310</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1352</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -20612,7 +23054,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>B21</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -20640,6 +23082,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20698,6 +23142,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20756,6 +23202,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -20880,6 +23328,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21004,6 +23454,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21110,6 +23562,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1352</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1394</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -21140,7 +23651,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I22</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -21168,6 +23679,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21297,6 +23810,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21426,6 +23941,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21550,6 +24067,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21674,6 +24193,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21780,6 +24301,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1394</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1436</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -21810,7 +24390,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>B22</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -21838,6 +24418,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21896,6 +24478,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -21954,6 +24538,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -22078,6 +24664,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -22202,6 +24790,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -22242,6 +24832,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1436</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1478</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -22272,7 +24921,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I23</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -22300,6 +24949,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -22429,6 +25080,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -22558,6 +25211,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -22682,6 +25337,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -22806,6 +25463,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -22912,6 +25571,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1478</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1520</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -22942,7 +25660,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>B23</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -22970,6 +25688,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23028,6 +25748,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23086,6 +25808,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23210,6 +25934,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23334,6 +26060,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23374,6 +26102,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1520</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1562</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -23404,7 +26191,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>I24</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -23432,6 +26219,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23561,6 +26350,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23690,6 +26481,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23814,6 +26607,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -23938,6 +26733,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -24044,6 +26841,65 @@ $(pv_value)</tooltip>
     <x>956</x>
     <y>1562</y>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="244" green="255" blue="224" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="244" green="255" blue="224" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>0</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="244" green="255" blue="224" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="15" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="177" blue="177" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>30</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color name="Black" red="244" green="255" blue="224" />
+    </line_color>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>EDM Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules></rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>80</width>
+    <wuid>1614ec47:17f6511f663:-68fc</wuid>
+    <x>24</x>
+    <y>1604</y>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -24074,7 +26930,7 @@ $(pv_value)</tooltip>
     <scripts />
     <text>B24</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
@@ -24102,6 +26958,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -24160,6 +27018,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -24218,6 +27078,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -24342,6 +27204,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
@@ -24466,6 +27330,8 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
     <enabled>true</enabled>
     <fg_gradient_color>
       <color red="255" green="255" blue="255" />
