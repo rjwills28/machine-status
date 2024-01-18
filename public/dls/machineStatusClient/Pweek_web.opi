@@ -1105,8 +1105,7 @@ $(pv_value)</tooltip>
     <scripts />
     <show_units>true</show_units>
     <text>######</text>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>$(pv_name)</tooltip>
     <transparent>false</transparent>
     <vertical_alignment>0</vertical_alignment>
     <visible>true</visible>
@@ -1157,8 +1156,7 @@ $(pv_value)</tooltip>
     <scripts />
     <show_units>true</show_units>
     <text>######</text>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>$(pv_name)</tooltip>
     <transparent>false</transparent>
     <vertical_alignment>0</vertical_alignment>
     <visible>true</visible>
