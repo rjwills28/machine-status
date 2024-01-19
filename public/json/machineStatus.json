@@ -2,6 +2,7 @@
   "type": "flexcontainer",
   "position": "relative",
   "backgroundColor": "white",
+  "scroll": "true",
   "flexFlow": "column",
   "border": {
     "style": "line",
@@ -132,7 +133,8 @@
       "type": "dynamicpage",
       "position": "relative",
       "location": "opi",
-      "showCloseButton": "false"
+      "showCloseButton": "false",
+      "scroll": true
     }
   ]
 }
