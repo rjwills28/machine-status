@@ -63,7 +63,7 @@
       <color red="255" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
-    <height>960</height>
+    <height>910</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
       <color red="255" green="255" blue="255" />
