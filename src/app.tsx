@@ -38,6 +38,7 @@ const LoadEmbeddedDirect = (props: PropsPath): JSX.Element => {
         defaultProtocol: "pva",
         macros: {}
       }}
+      scroll={true}
     />
   );
 };

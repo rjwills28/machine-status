@@ -2,6 +2,7 @@
   "type": "flexcontainer",
   "position": "relative",
   "backgroundColor": "white",
+  "scroll": "true",
   "flexFlow": "column",
   "border": {
     "style": "line",
@@ -93,7 +94,7 @@
         },
         {
           "type": "actionbutton",
-          "text": "Front Ends",
+          "text": "ID and Beamline Status",
           "position": "relative",
           "width": "12%",
           "margin": "0% 0% 0% 0%",
@@ -132,7 +133,8 @@
       "type": "dynamicpage",
       "position": "relative",
       "location": "opi",
-      "showCloseButton": "false"
+      "showCloseButton": "false",
+      "scroll": true
     }
   ]
 }
