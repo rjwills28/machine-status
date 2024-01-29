@@ -17,7 +17,7 @@ stages:
     - npm run test
 
 # Default job to build images
-.build_release_images:
+.build_images:
   stage: build-images
   script:
     - mkdir machine-status
