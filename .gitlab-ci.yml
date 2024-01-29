@@ -5,9 +5,8 @@ default:
 
 stages:
   - test
-  - build-screen-app
-  - build-internal-app
-  - integration-build
+  - build-apps
+  - build-images
 
 .node_test:
   stage: test
@@ -17,12 +16,24 @@ stages:
     - npm run all-checks
     - npm run test
 
+# Default job to build images
+.build_release_images:
+  stage: build-images
+  script:
+    - mkdir machine-status
+    - mv build/ machine-status/
+    - ls -al machine-status
+    - echo "Building image..."
+    - env | grep "CI_"
+    - /bin/sh ./kanikobuild.sh
+    - echo "Done"
+
 node 16:
   extends: .node_test
   image: node:16
 
-build-screen-app:
-  stage: build-screen-app
+build screen app:
+  stage: build-apps
   image: node:16
   script:
     - npm ci
@@ -33,14 +44,14 @@ build-screen-app:
     - export REACT_APP_BUILD_TIME=$(date --iso=minutes)
     - export REACT_APP_BASE_URL=machine-status-screen.diamond.ac.uk
     - export REACT_APP_PAGE_DISPLAY_TIME_SEC=15
-    - export REACT_APP_BUILD_TARGET=display
+    - export REACT_APP_BUILD_TARGET=screen
     - npm run build
   artifacts:
     paths:
       - build/
 
-build-internal-app:
-  stage: build-internal-app
+build public app:
+  stage: build-apps
   image: node:16
   script:
     - npm ci
@@ -51,15 +62,34 @@ build-internal-app:
     - export REACT_APP_BUILD_TIME=$(date --iso=minutes)
     - export REACT_APP_BASE_URL=machine-status.diamond.ac.uk
     - export REACT_APP_PAGE_DISPLAY_TIME_SEC=15
-    - export REACT_APP_BUILD_TARGET=web
+    - export REACT_APP_BUILD_TARGET=public
     - npm run build
   artifacts:
     paths:
       - build/
 
-integration-build:
-  only:
-    - integration
-  trigger:
-    project: controls/kubernetes/machine_status_deployment
-    branch: integration
+# Build and release images to registry
+
+build screen image:
+  extends: .build_images
+  tags:
+    - docker-image
+  image:
+    name: gcr.io/diamond-privreg/container-tools/kaniko-executor:v1.9.1-debug
+    entrypoint: [""]
+  before_script:
+    - export APP_VERSION=screen
+  dependencies:
+    - build-screen-app
+
+build public image:
+  extends: .build_images
+  tags:
+    - docker-image
+  image:
+    name: gcr.io/diamond-privreg/container-tools/kaniko-executor:v1.9.1-debug
+    entrypoint: [""]
+  before_script:
+    - export APP_VERSION=screen
+  dependencies:
+    - build-public-app
