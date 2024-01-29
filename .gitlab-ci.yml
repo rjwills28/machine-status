@@ -80,7 +80,7 @@ build screen image:
   before_script:
     - export APP_VERSION=screen
   dependencies:
-    - build-screen-app
+    - build screen app
 
 build public image:
   extends: .build_images
@@ -92,4 +92,4 @@ build public image:
   before_script:
     - export APP_VERSION=screen
   dependencies:
-    - build-public-app
+    - build public app
