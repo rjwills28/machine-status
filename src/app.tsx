@@ -91,7 +91,7 @@ const schema = {
 const ajv = new Ajv();
 const validator = ajv.compile(schema);
 
-const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
+const AppScreen: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
   // Each instance of context provider allows child components to access
   // the properties on the object placed in value
   // Profiler sends render information whenever child components rerender
@@ -288,12 +288,12 @@ const App: React.FC<{ jsonObj: JSON }> = ({ jsonObj }): JSX.Element => {
   );
 };
 
-export const AppWeb: React.FC = (): JSX.Element => (
+export const AppPublic: React.FC = (): JSX.Element => (
   // Each instance of context provider allows child components to access
   // the properties on the object placed in value
   // Profiler sends render information whenever child components rerender
   <Provider store={store}>
-    <div className="AppWeb">
+    <div className="AppPublic">
       <Header />
       <LoadEmbeddedDirect pathin={"/json/machineStatus"} />
       <Footer />
@@ -356,4 +356,4 @@ class RedirectAfterTimeout extends Component<RedirectProps> {
   }
 }
 
-export default App;
+export default AppScreen;
