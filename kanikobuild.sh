@@ -5,7 +5,7 @@
 echo 'Building ${APP_VERSION} image...'
 GROUP=controls
 TEMPLATE_CMD="/kaniko/executor --context ${CI_PROJECT_DIR}"
-DESTINATION="${CI_REGISTRY}/${GROUP}/${CI_PROJECT_NAME}"
+DESTINATION="${CI_REGISTRY}/${GROUP}/machine_status_${APP_VERSION}"
 DOCKERFILE="${CI_PROJECT_DIR}/Dockerfile"
 
 # Tag: push tagged image and latest
@@ -16,7 +16,7 @@ elif [[ "${CI_COMMIT_BRANCH}" == "integration" ]]; then
     CMD="${TEMPLATE_CMD} --dockerfile ${DOCKERFILE} --destination ${DESTINATION}:integration"
 # No tag: build but don't push
 else
-    CMD="${TEMPLATE_CMD} --dockerfile ${DOCKERFILE} --destination ${DESTINATION}:latest"
+    CMD="${TEMPLATE_CMD} --dockerfile ${DOCKERFILE} --no-push"
 fi
 
 echo "Command for machine-status image ..."

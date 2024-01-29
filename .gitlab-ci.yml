@@ -90,6 +90,6 @@ build public image:
     name: gcr.io/diamond-privreg/container-tools/kaniko-executor:v1.9.1-debug
     entrypoint: [""]
   before_script:
-    - export APP_VERSION=screen
+    - export APP_VERSION=public
   dependencies:
     - build public app
