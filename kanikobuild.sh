@@ -2,7 +2,7 @@
 # Script to be called by .gitlab-ci.yml to perform container build
 # using gitlab kubernetes executor
 
-echo 'Building ${APP_VERSION} image...'
+echo "Building ${APP_VERSION} image..."
 GROUP=controls
 TEMPLATE_CMD="/kaniko/executor --context ${CI_PROJECT_DIR}"
 DESTINATION="${CI_REGISTRY}/${GROUP}/machine_status_${APP_VERSION}"
