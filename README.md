@@ -23,7 +23,7 @@ This application depends on the cs-web-lib library: https://github.com/dls-contr
 
 - Update the .env variables:
   - REACT_APP_CONIQL_SOCKET - point to the server hosting the coniql application.
-  - REACT_APP_CONNIQL_SSL=true
+  - REACT_APP_CONIQL_SSL=true
   - REACT_APP_BASE_URL - URL to run on.
   - REACT_APP_PAGE_DISPLAY_TIME_SEC - page cycle interval.
   - REACT_APP_BUILD_TARGET - run the 'screen' or 'public' version of the application.
@@ -45,7 +45,7 @@ This application depends on the cs-web-lib library: https://github.com/dls-contr
 
 The `/src` directory contains the main code of the Machine Status application. Most notable of this are the `app.tsx` and `index.tsx` files which contain the configuration for starting the app, and which version should be started. Alongside this, there is also
 
-- `/customDisplays/` directory. This contains any `.tsx` files or CSS that are needed for the additional webpages needcustom displays are extra webpages that are displayed as extensions for beamlines.
+- `/customDisplays/` directory. This contains any `.tsx` files or CSS that are needed for the additional webpages.
 - `/components/` directory. This contains the `.tsx` and `.css` for the Header and Footer
 
 ### /public
@@ -59,18 +59,18 @@ This directory contains external files which will be displayed in Machine Status
 
 The `screen` and `public` versions of Machine Status display the same information, in different formats.
 
-- `screen` - intended for the Status Display Machine (SDM) screens around Diamond. This cycles between different pages on a timer. Not intended to have user interaction
-- `public` - intended to be viewed on a webpage from both inside and outside Diamond. Different pages are navigated to by clicking buttons. Extra considerations such as resizing/scroll useability are taken into account. Changes to this version should be tested on firefox, Chrome, Edge and (if possible) Mac before release, to take into account the varied use base at Diamond.
-
-The `public` implementation of Machine Status is made accessible to the wider internet.
+- `screen` - intended for the Status Display Monitor (SDM) screens around Diamond. This cycles between different pages on a timer. Not intended to have user interaction
+- `public` - intended to be viewed on a webpage from both inside and outside Diamond. Different pages are navigated to by clicking buttons. Changes to this version should be tested on firefox, Chrome, Edge and (if possible) Mac, Android and iPhone before release, to take into account the varied use base at Diamond.
 
 The `screen` implementation includes additional webpages for custom SDMs e.g. i19-sdm002, which is found on the webpage at `/i19-sdm002`.
+
+The `public` implementation of Machine Status is made accessible to the wider internet.
 
 ## Docker Image Build
 
 Both the `screen` and `public` versions of Machine Status are built using the same Dockerfile and Kaniko script. The environment variable `REACT_APP_BUILD_TARGET` is used to determine which is built.
 
-We use the alpine version of the node docker image as it is lightweight and optimised for size and security. It is ideal as we do not make use of the traditional Linux libraries and utilities. Additionally, as the `public` Machine Status is accessible to the wider internet, it needs to be as secure as possible. Tools such as trivy can be used to scan built images for CVEs (Common Vulnerabilities and Exposures) and the images should be kept up-to-date to minimise these risks.
+As the `public` Machine Status is accessible to the wider internet, it needs to be as secure as possible. Guidelines for public-facing web apps are found in Sharepoint. Tools such as trivy can be used to scan built images for CVEs (Common Vulnerabilities and Exposures) and the images should be kept up-to-date to minimise these risks.
 
 ## Continuous Integration
 
