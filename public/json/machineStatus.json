@@ -133,7 +133,7 @@
       "type": "dynamicpage",
       "position": "relative",
       "location": "opi",
-      "showCloseButton": "false",
+      "showCloseButton": false,
       "scroll": true
     }
   ]
