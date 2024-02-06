@@ -1,6 +1,6 @@
 # Machine Status
 
-Application to show the machine status screens both for Diamond screens and web access.
+Application to show the machine status screens both for Diamond screens and public web access.
 
 ## Dependencies
 
