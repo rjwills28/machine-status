@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
-import App, { AppWeb } from "./app";
+import AppScreen, { AppPublic } from "./app";
 import reportWebVitals from "./reportWebVitals";
 import { FileProvider, OutlineProvider } from "@dls-controls/cs-web-lib";
 
@@ -19,27 +19,27 @@ const init_state = {
 };
 
 const cycleConfigFile: string = process.env.REACT_APP_CYCLE_CONFIG_FILE ?? "";
-if (process.env.REACT_APP_BUILD_TARGET === "display") {
+if (process.env.REACT_APP_BUILD_TARGET === "screen") {
   if (cycleConfigFile === "") {
     errorPage(
-      new Error("REACT_APP_CYCLE_CONFIG_FILE not defined for 'display' target ")
+      new Error("REACT_APP_CYCLE_CONFIG_FILE not defined for 'screen' target ")
     );
   } else {
     fetch(cycleConfigFile)
       .then(response => response.json())
-      .then(jsonObj => loadDisplayApp(jsonObj))
+      .then(jsonObj => loadScreenApp(jsonObj))
       .catch(err => errorPage(err));
   }
 } else {
-  loadWebApp();
+  loadPublicApp();
 }
 
-function loadDisplayApp(jsonObj: JSON): void {
+function loadScreenApp(jsonObj: JSON): void {
   ReactDOM.render(
     <Router>
       <FileProvider>
         <OutlineProvider>
-          <App jsonObj={jsonObj} />
+          <AppScreen jsonObj={jsonObj} />
         </OutlineProvider>
       </FileProvider>
     </Router>,
@@ -47,12 +47,12 @@ function loadDisplayApp(jsonObj: JSON): void {
   );
 }
 
-function loadWebApp(): void {
+function loadPublicApp(): void {
   ReactDOM.render(
     <Router>
       <FileProvider initialPageState={init_state}>
         <OutlineProvider>
-          <AppWeb />
+          <AppPublic />
         </OutlineProvider>
       </FileProvider>
     </Router>,

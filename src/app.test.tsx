@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
-import App, { AppWeb } from "./app";
+import AppScreen, { AppPublic } from "./app";
 
-it("display app renders without crashing", (): void => {
+it("screen app renders without crashing", (): void => {
   const div = document.createElement("div");
   const jsonObj = JSON.parse(`
   {
@@ -18,18 +18,18 @@ it("display app renders without crashing", (): void => {
   }`);
   ReactDOM.render(
     <Router>
-      <App jsonObj={jsonObj} />
+      <AppScreen jsonObj={jsonObj} />
     </Router>,
     div
   );
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it("web app renders without crashing", (): void => {
+it("public app renders without crashing", (): void => {
   const div = document.createElement("div");
   ReactDOM.render(
     <Router>
-      <AppWeb />
+      <AppPublic />
     </Router>,
     div
   );
