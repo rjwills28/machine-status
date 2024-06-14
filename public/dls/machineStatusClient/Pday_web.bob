@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Pday</name>
+  <x>131</x>
+  <y>73</y>
+  <width>870</width>
+  <height>850</height>
+  <background_color>
+    <color name="White" red="255" green="255" blue="255">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <macros>
+      <pv_name></pv_name>
+    </macros>
+    <width>870</width>
+    <height>850</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Mode</text>
+    <x>645</x>
+    <y>380</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Top-up Status</text>
+    <x>645</x>
+    <y>445</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>F/back Status</text>
+    <x>645</x>
+    <y>315</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Fill Pattern</text>
+    <x>645</x>
+    <y>510</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Last Fill</text>
+    <x>645</x>
+    <y>250</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Storage Ring Status (day view)</text>
+    <x>64</x>
+    <y>24</y>
+    <width>514</width>
+    <height>63</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="24.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Lifetime (hours)</text>
+    <x>645</x>
+    <y>120</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR-CS-FILL-01:ENDTIMESTR</pv_name>
+    <x>645</x>
+    <y>280</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>CS-CS-MSTAT-01:MODE</pv_name>
+    <x>645</x>
+    <y>410</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR-DI-DCCT-01:SIGNAL</pv_name>
+    <x>645</x>
+    <y>215</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Current (mA)</text>
+    <x>645</x>
+    <y>185</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR-DI-DCCT-01:LIFETIME</pv_name>
+    <x>645</x>
+    <y>150</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>CS-CS-MSTAT-01:FBSTAT</pv_name>
+    <x>645</x>
+    <y>345</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>CS-CS-MSTAT-01:FILLPATNAM</pv_name>
+    <x>645</x>
+    <y>540</y>
+    <width>200</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>EDM Png</name>
+    <file>https://machine-status-files.diamond.ac.uk/statusGraph.png</file>
+    <x>24</x>
+    <y>112</y>
+    <width>583</width>
+    <height>383</height>
+    <stretch_image>true</stretch_image>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="UpdateGraph" prop_id="image_file" out_exp="false">
+        <exp bool_exp="pv0">
+          <value>https://machine-status-files.diamond.ac.uk/statusGraph.png#1</value>
+        </exp>
+        <exp bool_exp="!pv0">
+          <value>https://machine-status-files.diamond.ac.uk/statusGraph.png#2</value>
+        </exp>
+        <pv_name>sim://flipflop(30)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>CS-CS-MSTAT-01:TOPUPSTATE</pv_name>
+    <x>645</x>
+    <y>475</y>
+    <width>200</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label_10</name>
+    <text>Operator</text>
+    <x>32</x>
+    <y>592</y>
+    <width>344</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label_11</name>
+    <text>Coordinator</text>
+    <x>501</x>
+    <y>592</y>
+    <width>344</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput_7</name>
+    <pv_name>CS-CS-MSTAT-01:OPS</pv_name>
+    <x>56</x>
+    <y>624</y>
+    <width>360</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput_8</name>
+    <pv_name>CS-CS-MSTAT-01:COORDS</pv_name>
+    <x>512</x>
+    <y>624</y>
+    <width>332</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label_12</name>
+    <text>Messages from operations</text>
+    <x>32</x>
+    <y>664</y>
+    <width>813</width>
+    <height>30</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="68" green="74" blue="149">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="231" green="240" blue="247">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>CS-CS-MSTAT-01:MESS01</pv_name>
+    <x>56</x>
+    <y>695</y>
+    <width>788</width>
+    <height>38</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <format>6</format>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color name="Grey 50%" red="128" green="128" blue="128">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>CS-CS-MSTAT-01:MESS02</pv_name>
+    <x>56</x>
+    <y>734</y>
+    <width>788</width>
+    <height>72</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <format>6</format>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color name="Grey 50%" red="128" green="128" blue="128">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label_13</name>
+    <text>last updated</text>
+    <x>30</x>
+    <y>820</y>
+    <width>88</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="15.0">
+      </font>
+    </font>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput_9</name>
+    <pv_name>CS-CS-MSTAT-01:TIME</pv_name>
+    <x>120</x>
+    <y>820</y>
+    <width>360</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="15.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+</display>

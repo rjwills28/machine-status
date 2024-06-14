@@ -12,7 +12,7 @@ by setting the initialPageState for the FileProvider context
 */
 const init_state = {
   opi: {
-    path: "../dls/machineStatusClient/Pday_web.opi",
+    path: "../dls/machineStatusClient/Pday_web.bob",
     macros: {},
     defaultProtocol: "ca"
   }
