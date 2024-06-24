@@ -1,4 +1,4 @@
-FROM node:20.11-alpine
+FROM node:20-alpine
 
 ENV NODE_OPTIONS=--openssl-legacy-provider
 RUN adduser -D machine-status
