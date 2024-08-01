@@ -1,17 +1,17 @@
 {
-    "type": "flexcontainer",
-    "position": "relative",
-    "children": [
-      {
-        "type": "embeddedDisplay",
-        "position": "relative",
-        "margin": "10px",
-        "description": "",
-        "file": {
-            "path": "../dls/machineStatusClient/FE2.opi",
-            "macros": {},
-            "defaultProtocol": "ca"
-        }
+  "type": "flexcontainer",
+  "position": "relative",
+  "children": [
+    {
+      "type": "embeddedDisplay",
+      "position": "relative",
+      "margin": "10px",
+      "description": "",
+      "file": {
+        "path": "../dls/machineStatusClient/FE2.bob",
+        "macros": {},
+        "defaultProtocol": "ca"
       }
-    ]
-  }
+    }
+  ]
+}

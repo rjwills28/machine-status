@@ -1,0 +1,5123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>FE2</name>
+  <width>1280</width>
+  <height>995</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>ID &amp; Front End Status</text>
+    <width>1280</width>
+    <height>64</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="60.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="145" green="145" blue="145">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>CS-CS-MSTAT-01:TIME</pv_name>
+    <y>64</y>
+    <width>1280</width>
+    <height>40</height>
+    <font>
+      <font family="monospace" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="255" green="204" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Lifetime</text>
+    <x>8</x>
+    <y>112</y>
+    <width>264</width>
+    <height>58</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="48.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Current</text>
+    <x>648</x>
+    <y>112</y>
+    <width>264</width>
+    <height>58</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="48.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>911</x>
+    <y>112</y>
+    <width>362</width>
+    <height>58</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR-DI-DCCT-01:SIGNAL</pv_name>
+    <x>912</x>
+    <y>112</y>
+    <width>360</width>
+    <height>56</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="48.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>271</x>
+    <y>112</y>
+    <width>362</width>
+    <height>58</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR-DI-DCCT-01:LIFETIME</pv_name>
+    <x>272</x>
+    <y>112</y>
+    <width>360</width>
+    <height>56</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="48.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>B/L</text>
+    <x>8</x>
+    <y>176</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Gap</text>
+    <x>112</x>
+    <y>176</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Field</text>
+    <x>328</x>
+    <y>176</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Port</text>
+    <x>528</x>
+    <y>176</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Optics</text>
+    <x>720</x>
+    <y>176</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Exptl</text>
+    <x>1000</x>
+    <y>176</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="236" green="236" blue="236">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I15</text>
+    <x>8</x>
+    <y>224</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>111</x>
+    <y>223</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR15I-ID-SCMPW-01:B_REAL</pv_name>
+    </macros>
+    <x>327</x>
+    <y>223</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR15I-ID-SCMPW-01:B_REAL</pv_name>
+    <x>328</x>
+    <y>224</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE15I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>223</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE15I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>224</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE15I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>223</y>
+    <width>138</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE15I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>224</y>
+    <width>136</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL15I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>855</x>
+    <y>223</y>
+    <width>138</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL15I-PS-SHTR-01:STA</pv_name>
+    <x>856</x>
+    <y>224</y>
+    <width>136</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL15I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>223</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL15I-PS-SHTR-02:STA</pv_name>
+    <x>1000</x>
+    <y>224</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>J15</text>
+    <x>8</x>
+    <y>264</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>111</x>
+    <y>263</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR15I-ID-SCMPW-01:B_REAL</pv_name>
+    </macros>
+    <x>327</x>
+    <y>263</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR15I-ID-SCMPW-01:B_REAL</pv_name>
+    <x>328</x>
+    <y>264</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE15I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>263</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE15I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>264</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE15I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>263</y>
+    <width>138</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE15I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>264</y>
+    <width>136</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL15J-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>855</x>
+    <y>263</y>
+    <width>138</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL15J-PS-SHTR-01:STA</pv_name>
+    <x>856</x>
+    <y>264</y>
+    <width>136</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>999</x>
+    <y>263</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I16</text>
+    <x>8</x>
+    <y>304</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR16I-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>303</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR16I-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>304</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR16I-MO-SERVC-01:FIELD</pv_name>
+    </macros>
+    <x>327</x>
+    <y>303</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR16I-MO-SERVC-01:FIELD</pv_name>
+    <x>328</x>
+    <y>304</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE16I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>303</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE16I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>304</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE16I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>303</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE16I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>304</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL16I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>303</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL16I-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>304</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>B16</text>
+    <x>8</x>
+    <y>344</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>111</x>
+    <y>343</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>327</x>
+    <y>343</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE16B-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>343</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE16B-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>344</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE16B-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>343</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE16B-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>344</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL16B-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>343</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL16B-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>344</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I18</text>
+    <x>8</x>
+    <y>384</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR18I-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>383</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR18I-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>384</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR18I-MO-SERVC-01:FIELD</pv_name>
+    </macros>
+    <x>327</x>
+    <y>383</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR18I-MO-SERVC-01:FIELD</pv_name>
+    <x>328</x>
+    <y>384</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE18I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>383</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE18I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>384</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE18I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>383</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE18I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>384</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL18I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>383</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL18I-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>384</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>B18</text>
+    <x>8</x>
+    <y>424</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>111</x>
+    <y>423</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>327</x>
+    <y>423</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE18B-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>423</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE18B-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>424</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE18B-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>423</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE18B-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>424</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL18B-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>423</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL18B-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>424</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I19</text>
+    <x>8</x>
+    <y>464</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR19I-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>463</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR19I-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>464</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR19I-MO-SERVC-01:FIELD</pv_name>
+    </macros>
+    <x>327</x>
+    <y>463</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR19I-MO-SERVC-01:FIELD</pv_name>
+    <x>328</x>
+    <y>464</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE19I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>463</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE19I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>464</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE19I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>463</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE19I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>464</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL19I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>463</y>
+    <width>138</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL19I-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>464</y>
+    <width>136</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL19I-OP-HATCH-01:hatchStatus</pv_name>
+    </macros>
+    <x>1135</x>
+    <y>463</y>
+    <width>138</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL19I-OP-HATCH-01:hatchStatus</pv_name>
+    <x>1136</x>
+    <y>464</y>
+    <width>136</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I20</text>
+    <x>8</x>
+    <y>504</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR20I-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>503</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR20I-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>504</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR20I-MO-SERVC-01:FIELD</pv_name>
+    </macros>
+    <x>327</x>
+    <y>503</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR20I-MO-SERVC-01:FIELD</pv_name>
+    <x>328</x>
+    <y>504</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE20I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>503</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE20I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>504</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE20I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>503</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE20I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>504</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL20I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>503</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL20I-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>504</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>J20</text>
+    <x>8</x>
+    <y>544</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR20J-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>543</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR20J-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>544</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR20J-MO-SERVC-01:FIELD</pv_name>
+    </macros>
+    <x>327</x>
+    <y>543</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR20J-MO-SERVC-01:FIELD</pv_name>
+    <x>328</x>
+    <y>544</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE20I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>543</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE20I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>544</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE20I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>543</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE20I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>544</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL20J-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>543</y>
+    <width>138</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL20J-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>544</y>
+    <width>136</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL20J-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>1135</x>
+    <y>543</y>
+    <width>138</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL20J-PS-SHTR-02:STA</pv_name>
+    <x>1136</x>
+    <y>544</y>
+    <width>136</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I21</text>
+    <x>8</x>
+    <y>584</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR21I-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>583</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR21I-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>584</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>327</x>
+    <y>583</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE21I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>583</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE21I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>584</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE21I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>583</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE21I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>584</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>999</x>
+    <y>583</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>B21</text>
+    <x>8</x>
+    <y>624</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>111</x>
+    <y>623</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>327</x>
+    <y>623</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE21B-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>623</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE21B-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>624</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE21B-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>623</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE21B-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>624</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL21B-PS-SHTR-01:ALMSTA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>623</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL21B-PS-SHTR-01:ALMSTA</pv_name>
+    <x>1000</x>
+    <y>624</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I22</text>
+    <x>8</x>
+    <y>664</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR22I-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>663</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR22I-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>664</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR22I-MO-SERVC-01:FIELD</pv_name>
+    </macros>
+    <x>327</x>
+    <y>663</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR22I-MO-SERVC-01:FIELD</pv_name>
+    <x>328</x>
+    <y>664</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE22I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>663</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE22I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>664</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE22I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>663</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE22I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>664</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL22I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>663</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL22I-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>664</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>B22</text>
+    <x>8</x>
+    <y>704</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>111</x>
+    <y>703</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>327</x>
+    <y>703</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE22B-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>703</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE22B-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>704</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE22B-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>703</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE22B-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>704</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>999</x>
+    <y>703</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I23</text>
+    <x>8</x>
+    <y>744</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR23I-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>743</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR23I-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>744</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR23I-MO-SERVC-01:FIELD</pv_name>
+    </macros>
+    <x>327</x>
+    <y>743</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR23I-MO-SERVC-01:FIELD</pv_name>
+    <x>328</x>
+    <y>744</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE23I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>743</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE23I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>744</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE23I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>743</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE23I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>744</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL23I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>743</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL23I-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>744</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>B23</text>
+    <x>8</x>
+    <y>784</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>111</x>
+    <y>783</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>327</x>
+    <y>783</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE23B-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>783</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE23B-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>784</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE23B-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>783</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE23B-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>784</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>999</x>
+    <y>783</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>I24</text>
+    <x>8</x>
+    <y>824</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR24I-MO-SERVC-01:CURRGAPD</pv_name>
+    </macros>
+    <x>111</x>
+    <y>823</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR24I-MO-SERVC-01:CURRGAPD</pv_name>
+    <x>112</x>
+    <y>824</y>
+    <width>208</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>SR24I-MO-SERVC-01:FIELD</pv_name>
+    </macros>
+    <x>327</x>
+    <y>823</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="lineColorAlarmRule" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pvSev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="241" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>SR24I-MO-SERVC-01:FIELD</pv_name>
+    <x>328</x>
+    <y>824</y>
+    <width>192</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <precision>2</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE24I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>823</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE24I-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>824</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE24I-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>823</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE24I-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>824</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>BL24I-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>999</x>
+    <y>823</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL24I-PS-SHTR-01:STA</pv_name>
+    <x>1000</x>
+    <y>824</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>B24</text>
+    <x>8</x>
+    <y>864</y>
+    <width>96</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Text: FG" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>111</x>
+    <y>863</y>
+    <width>210</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>327</x>
+    <y>863</y>
+    <width>194</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE24B-PS-SHTR-01:STA</pv_name>
+    </macros>
+    <x>527</x>
+    <y>863</y>
+    <width>186</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE24B-PS-SHTR-01:STA</pv_name>
+    <x>528</x>
+    <y>864</y>
+    <width>184</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <macros>
+      <pv_name>FE24B-PS-SHTR-02:STA</pv_name>
+    </macros>
+    <x>719</x>
+    <y>863</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="background_color_machineStatusRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color red="0" green="224" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>FE24B-PS-SHTR-02:STA</pv_name>
+    <x>720</x>
+    <y>864</y>
+    <width>272</width>
+    <height>40</height>
+    <font>
+      <font family="liberation sans" style="BOLD" size="32.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="White" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>999</x>
+    <y>863</y>
+    <width>274</width>
+    <height>42</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+</display>
