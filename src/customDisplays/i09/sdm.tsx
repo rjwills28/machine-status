@@ -3,7 +3,7 @@ import {
   AbsolutePosition,
   EmbeddedDisplay,
   Webcam
-} from "@dls-controls/cs-web-lib";
+} from "@diamondlightsource/cs-web-lib";
 import "./sdm.css";
 
 type PropsPath = {

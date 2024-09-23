@@ -1,4 +1,4 @@
-import { AbsolutePosition, Webcam } from "@dls-controls/cs-web-lib";
+import { AbsolutePosition, Webcam } from "@diamondlightsource/cs-web-lib";
 import React from "react";
 import "./webcams.css";
 

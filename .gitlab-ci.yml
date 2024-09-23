@@ -38,13 +38,13 @@ build screen app:
   script:
     - npm ci
     # Environment variables are captured at build time.
-    - export REACT_APP_CONIQL_SOCKET=coniql.diamond.ac.uk:443
-    - export REACT_APP_CONIQL_SSL=true
-    - export REACT_APP_VERSION=$CI_UPSTREAM_TAG
-    - export REACT_APP_BUILD_TIME=$(date --iso=minutes)
-    - export REACT_APP_BASE_URL=machine-status-screen.diamond.ac.uk
-    - export REACT_APP_PAGE_DISPLAY_TIME_SEC=15
-    - export REACT_APP_BUILD_TARGET=screen
+    - export VITE_CONIQL_SOCKET=coniql.diamond.ac.uk:443
+    - export VITE_CONIQL_SSL=true
+    - export VITE_VERSION=$CI_UPSTREAM_TAG
+    - export VITE_BUILD_TIME=$(date --iso=minutes)
+    - export VITE_BASE_URL=machine-status-screen.diamond.ac.uk
+    - export VITE_PAGE_DISPLAY_TIME_SEC=15
+    - export VITE_BUILD_TARGET=screen
     - npm run build
   artifacts:
     paths:
@@ -56,13 +56,13 @@ build public app:
   script:
     - npm ci
     # Environment variables are captured at build time.
-    - export REACT_APP_CONIQL_SOCKET=coniql-public.diamond.ac.uk:443
-    - export REACT_APP_CONIQL_SSL=true
-    - export REACT_APP_VERSION=$CI_UPSTREAM_TAG
-    - export REACT_APP_BUILD_TIME=$(date --iso=minutes)
-    - export REACT_APP_BASE_URL=machine-status.diamond.ac.uk
-    - export REACT_APP_PAGE_DISPLAY_TIME_SEC=15
-    - export REACT_APP_BUILD_TARGET=public
+    - export VITE_CONIQL_SOCKET=coniql-public.diamond.ac.uk:443
+    - export VITE_CONIQL_SSL=true
+    - export VITE_VERSION=$CI_UPSTREAM_TAG
+    - export VITE_BUILD_TIME=$(date --iso=minutes)
+    - export VITE_BASE_URL=machine-status.diamond.ac.uk
+    - export VITE_PAGE_DISPLAY_TIME_SEC=15
+    - export VITE_BUILD_TARGET=public
     - npm run build
   artifacts:
     paths:

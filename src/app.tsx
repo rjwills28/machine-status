@@ -9,7 +9,7 @@ import {
   onRenderCallback,
   RelativePosition,
   store
-} from "@dls-controls/cs-web-lib";
+} from "@diamondlightsource/cs-web-lib";
 import { Header } from "./components/Header/header";
 import { Footer } from "./components/Footer/footer";
 import Ajv from "ajv";
@@ -19,7 +19,7 @@ import {
   LoadFourWebcams
 } from "./customDisplays/loadWebcamDisplays";
 
-log.setLevel((process.env.REACT_APP_LOG_LEVEL as LogLevelDesc) ?? "info");
+log.setLevel((import.meta.env.VITE_LOG_LEVEL as LogLevelDesc) ?? "info");
 
 let jsonData: any;
 let cycleNum = 0;

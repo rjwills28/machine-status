@@ -22,11 +22,11 @@ This application depends on the cs-web-lib library: https://github.com/dls-contr
   `npm install`
 
 - Update the .env variables:
-  - REACT_APP_CONIQL_SOCKET - point to the server hosting the coniql application.
-  - REACT_APP_CONIQL_SSL=true
-  - REACT_APP_BASE_URL - URL to run on.
-  - REACT_APP_PAGE_DISPLAY_TIME_SEC - page cycle interval.
-  - REACT_APP_BUILD_TARGET - run the 'screen' or 'public' version of the application.
+  - VITE_CONIQL_SOCKET - point to the server hosting the coniql application.
+  - VITE_CONIQL_SSL=true
+  - VITE_BASE_URL - URL to run on.
+  - VITE_PAGE_DISPLAY_TIME_SEC - page cycle interval.
+  - VITE_BUILD_TARGET - run the 'screen' or 'public' version of the application.
 - From here you can run the application or create a production build to serve:
 
   - Run:
@@ -68,7 +68,7 @@ The `public` implementation of Machine Status is made accessible to the wider in
 
 ## Docker Image Build
 
-Both the `screen` and `public` versions of Machine Status are built using the same Dockerfile and Kaniko script. The environment variable `REACT_APP_BUILD_TARGET` is used to determine which is built.
+Both the `screen` and `public` versions of Machine Status are built using the same Dockerfile and Kaniko script. The environment variable `VITE_BUILD_TARGET` is used to determine which is built.
 
 As the `public` Machine Status is accessible to the wider internet, it needs to be as secure as possible. Guidelines for public-facing web apps are found in Sharepoint. Tools such as trivy can be used to scan built images for CVEs (Common Vulnerabilities and Exposures) and the images should be kept up-to-date to minimise these risks.
 

@@ -10,8 +10,8 @@ export const Footer = (): JSX.Element => {
       }}
     >
       <p>
-        Machine Status version {process.env.REACT_APP_VERSION}{" "}
-        {process.env.REACT_APP_BUILD_TIME}
+        Machine Status version {import.meta.env.VITE_VERSION}{" "}
+        {import.meta.env.VITE_BUILD_TIME}
       </p>
       <p>Copyright © Diamond Light Source Ltd.</p>
       <p>

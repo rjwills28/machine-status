@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 import AppScreen, { AppPublic } from "./app";
 import reportWebVitals from "./reportWebVitals";
-import { FileProvider, OutlineProvider } from "@dls-controls/cs-web-lib";
+import { FileProvider, OutlineProvider } from "@diamondlightsource/cs-web-lib";
 
 /*
 Show one display on initial page load in the DynamicPage
@@ -18,11 +18,11 @@ const init_state = {
   }
 };
 
-const cycleConfigFile: string = process.env.REACT_APP_CYCLE_CONFIG_FILE ?? "";
-if (process.env.REACT_APP_BUILD_TARGET === "screen") {
+const cycleConfigFile: string = import.meta.env.VITE_CYCLE_CONFIG_FILE ?? "";
+if (import.meta.env.VITE_BUILD_TARGET === "screen") {
   if (cycleConfigFile === "") {
     errorPage(
-      new Error("REACT_APP_CYCLE_CONFIG_FILE not defined for 'screen' target ")
+      new Error("VITE_CYCLE_CONFIG_FILE not defined for 'screen' target ")
     );
   } else {
     fetch(cycleConfigFile)
