@@ -19,7 +19,7 @@ import {
   LoadFourWebcams
 } from "./customDisplays/loadWebcamDisplays";
 
-log.setLevel((import.meta.env.VITE_LOG_LEVEL as LogLevelDesc) ?? "info");
+log.setLevel((process.env.VITE_LOG_LEVEL as LogLevelDesc) ?? "info");
 
 let jsonData: any;
 let cycleNum = 0;
