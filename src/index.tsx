@@ -18,8 +18,13 @@ const init_state = {
   }
 };
 
-const cycleConfigFile: string = process.env.VITE_CYCLE_CONFIG_FILE ?? "";
-if (process.env.VITE_BUILD_TARGET === "screen") {
+const cycleConfigFile: string =
+  process.env.VITE_CYCLE_CONFIG_FILE ??
+  import.meta.env.VITE_CYCLE_CONFIG_FILE ??
+  "";
+const buildTarget =
+  process.env.VITE_BUILD_TARGET ?? import.meta.env.VITE_BUILD_TARGET ?? "";
+if (buildTarget === "screen") {
   if (cycleConfigFile === "") {
     errorPage(
       new Error("VITE_CYCLE_CONFIG_FILE not defined for 'screen' target ")
